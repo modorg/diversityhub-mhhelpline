@@ -1,2 +1,26 @@
 /*-- Use For Custom Styling --*/
 
+.rs-addon-beforeafter-before {
+  background-image: url("../images/brush_swipe.png");
+  background-repeat: no-repeat;
+  background-size: 15vw;
+  background-position-y: center;
+}
+
+.slide-2 .rs-addon-beforeafter-after {
+  background-image: url("../images/brush_circle.png");
+  background-repeat: no-repeat;
+  background-size: 160px;
+  background-position-y: -30px;
+  background-position-x: right;
+}
+
+.navbar a img {
+  width: 70%;
+}
+
+.navbar {
+  background-image: url('../images/small_arrow.png');
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
