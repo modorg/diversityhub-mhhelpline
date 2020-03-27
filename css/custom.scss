@@ -1,14 +1,17 @@
+---
+---
+
 /*-- Use For Custom Styling --*/
 
 .rs-addon-beforeafter-before {
-  background-image: url("../images/brush_swipe.png");
+  background-image: url("{{ site.baseurl }}/images/brush_swipe.png");
   background-repeat: no-repeat;
   background-size: 15vw;
   background-position-y: center;
 }
 
 .slide-2 .rs-addon-beforeafter-after {
-  background-image: url("../images/brush_circle.png");
+  background-image: url("{{ site.baseurl }}/images/brush_circle.png");
   background-repeat: no-repeat;
   background-size: 160px;
   background-position-y: -30px;
@@ -20,7 +23,7 @@
 }
 
 .navbar {
-  background-image: url('../images/small_arrow.png');
+  background-image: url('{{ site.baseurl }}/images/small_arrow.png');
   background-repeat: no-repeat;
   background-size: 100px;
 }
