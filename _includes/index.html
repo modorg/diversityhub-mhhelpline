@@ -203,28 +203,7 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="owl-team owl-carousel wow fadeInUp">
-                    <div class="item grey-shade text-center">
-                        <div class="team-data-img wow fadeIn" data-wow-delay="350ms">
-                            <div class="team-img">
-                                <img src="{{ site.baseurl }}/images/person_tadek.png" alt="team" class="img-responsive" data-no-retina>
-                            </div>
-                            <div>
-                                <h4 class="color-black font-weight-normal mt-4 text-capitalize">david melan</h4>
-                                <p class="color-light-grey font-weight-light designation text-capitalize">
-                                    Creative Lead
-                                </p>
-                                <span class="hr-line mt-3 mb-2"></span>
-                                <ul class="team-social">
-                                    <li><a href="javascript:void(0)" class="facebook-bg-hvr"><i
-                                                class="ti ti-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="javascript:void(0)" class="twitter-bg-hvr"><i
-                                                class="ti ti-twitter-alt" aria-hidden="true"></i></a></li>
-                                    <li><a href="javascript:void(0)" class="google-bg-hvr"><i class="ti ti-google"
-                                                aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    {% include person.html %}
                     <div class="item grey-shade text-center">
                         <div class="team-data-img wow fadeIn" data-wow-delay="350ms">
                             <div class="team-img">
@@ -300,6 +279,23 @@
                 </div>
             </div>
         </div>
+        <!-- People modals (hidden) -->
+        <!-- <div class="modal fade modal-person1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-6">bla</div>
+                                <div class="col-md-6">tararara</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- People modals (hidden) ends -->
     </div>
 </section>
 <!-- Team ends -->
@@ -1010,6 +1006,8 @@
     </div>
 </footer>
 <!-- Footer ends -->
+
+{% include modals.html %}
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="{{ site.baseurl }}/js/jquery-3.3.1.min.js"></script>

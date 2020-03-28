@@ -5,6 +5,12 @@ jQuery(window).on("load", function () {
      Loading Timeout
      ====================================== */
     $("#loader-fade").fadeOut(800);
+
+    $('.modal-person1').on('shown.bs.modal', function (e) {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#team").offset().top
+        }, 1);
+    })
 });
 
 jQuery(function ($) {
