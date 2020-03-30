@@ -83,49 +83,23 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="main-title mb-xs-3 wow fadeIn" data-wow-delay="300ms">
-                    <h5> Basic info about company </h5>
-                    <h2> a creative design agency in east london</h2>
-                    <p> Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor
-                        nunc vitae
-                        diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor
-                        justo sed mi
-                        finibus, vel tristique risus faucibus. Vestibulum auctor nunc vitae diam eleifend, in
-                        maximus metus
-                        sollicitudin. Quisque vitae sodales lectus.</p>
+                    <h5>{{ site.data[page.lang].about.not_virtual_yet }}</h5>
+                    <h2>{{ site.data[page.lang].about.support_line }}</h2>
+                    <p>{{ site.data[page.lang].about.mhhelpline_provides }}</p>
                 </div>
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-md-4 col-sm-12 wow fadeInLeft">
-                <div class="about-3-boxes">
-                    <i class="ti ti-world" aria-hidden="true"></i>
-                    <h4 class="color-black font-weight-normal m-0 text-capitalize">branding</h4>
-                    <span class="hr-line mt-2 mb-4"></span>
-                    <p> Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                        been the
-                        industry’s standard dummy. </p>
+            {% for column in site.data[page.lang].about.columns %}
+                <div class="col-md-4 col-sm-12 wow {{column.effect}}">
+                    <div class="about-3-boxes">
+                        <i class="ti {{column.icon}}" aria-hidden="true"></i>
+                        <h4 class="color-black font-weight-normal m-0 text-capitalize">{{column.title}}</h4>
+                        <span class="hr-line mt-2 mb-4"></span>
+                        <p>{{column.content}}</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 col-sm-12 wow fadeInUp">
-                <div class="about-3-boxes">
-                    <i class="ti ti-ruler-pencil" aria-hidden="true"></i>
-                    <h4 class="color-black font-weight-normal m-0 text-capitalize">marketing</h4>
-                    <span class="hr-line mt-2 mb-4"></span>
-                    <p> Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                        been the
-                        industry’s standard dummy. </p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12 wow fadeInRight">
-                <div class="about-3-boxes">
-                    <i class="ti ti-server" aria-hidden="true"></i>
-                    <h4 class="color-black font-weight-normal m-0 text-capitalize">presentation</h4>
-                    <span class="hr-line mt-2 mb-4"></span>
-                    <p> Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                        been the
-                        industry’s standard dummy. </p>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
