@@ -83,106 +83,27 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="main-title mb-xs-3 wow fadeIn" data-wow-delay="300ms">
-                    <h5> Basic info about company </h5>
-                    <h2> a creative design agency in east london</h2>
-                    <p> Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor
-                        nunc vitae
-                        diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor
-                        justo sed mi
-                        finibus, vel tristique risus faucibus. Vestibulum auctor nunc vitae diam eleifend, in
-                        maximus metus
-                        sollicitudin. Quisque vitae sodales lectus.</p>
+                    <h5>{{ site.data[page.lang].about.not_virtual_yet }}</h5>
+                    <h2>{{ site.data[page.lang].about.support_line }}</h2>
+                    <p>{{ site.data[page.lang].about.mhhelpline_provides }}</p>
                 </div>
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-md-4 col-sm-12 wow fadeInLeft">
-                <div class="about-3-boxes">
-                    <i class="ti ti-world" aria-hidden="true"></i>
-                    <h4 class="color-black font-weight-normal m-0 text-capitalize">branding</h4>
-                    <span class="hr-line mt-2 mb-4"></span>
-                    <p> Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                        been the
-                        industry’s standard dummy. </p>
+            {% for column in site.data[page.lang].about.columns %}
+                <div class="col-md-4 col-sm-12 wow {{column.effect}}">
+                    <div class="about-3-boxes">
+                        <i class="ti {{column.icon}}" aria-hidden="true"></i>
+                        <h4 class="color-black font-weight-normal m-0 text-capitalize">{{column.title}}</h4>
+                        <span class="hr-line mt-2 mb-4"></span>
+                        <p>{{column.content}}</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4 col-sm-12 wow fadeInUp">
-                <div class="about-3-boxes">
-                    <i class="ti ti-ruler-pencil" aria-hidden="true"></i>
-                    <h4 class="color-black font-weight-normal m-0 text-capitalize">marketing</h4>
-                    <span class="hr-line mt-2 mb-4"></span>
-                    <p> Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                        been the
-                        industry’s standard dummy. </p>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12 wow fadeInRight">
-                <div class="about-3-boxes">
-                    <i class="ti ti-server" aria-hidden="true"></i>
-                    <h4 class="color-black font-weight-normal m-0 text-capitalize">presentation</h4>
-                    <span class="hr-line mt-2 mb-4"></span>
-                    <p> Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                        been the
-                        industry’s standard dummy. </p>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
 <!-- About ends -->
-
-<!-- Stats start -->
-<section class="stats bg-light-gray half-section p-0">
-    <h2 class="d-none">heading</h2>
-    <div class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-md-6 col-sm-12 p-0">
-                <div class="image split-blog-scale ">
-                    <img alt="stats" src="//split-stats.jpg">
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12 split-box-counter-setting align-items-center text-center">
-                <div class="col-md-6 col-sm-6 float-left w-xs-50 wow bounceIn" data-wow-delay="500ms">
-                    <div class="counter-item">
-                        <i class="ti ti-crown" aria-hidden="true"></i>
-                        <strong class="color-black numscroller"> 69 </strong>
-                        <p class="color-black">
-                            Awards Won
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 float-left w-xs-50 wow bounceIn" data-wow-delay="500ms">
-                    <div class="counter-item">
-                        <i class="ti ti-user" aria-hidden="true"></i>
-                        <strong class="color-black numscroller"> 780 </strong>
-                        <p class="color-black">
-                            Employess
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 float-left w-xs-50 wow bounceIn" data-wow-delay="500ms">
-                    <div class="counter-item">
-                        <i class="ti ti-face-smile" aria-hidden="true"></i>
-                        <strong class="color-black numscroller"> 456 </strong>
-                        <p class="color-black">
-                            Happy Clients
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 float-left w-xs-50 wow bounceIn" data-wow-delay="500ms">
-                    <div class="counter-item">
-                        <i class="ti ti-alarm-clock" aria-hidden="true"></i>
-                        <strong class="color-black numscroller"> 599 </strong>
-                        <p class="color-black">
-                            Finished Projects
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Stats ends -->
 
 <!-- Team start -->
 <section id="team">
@@ -190,13 +111,9 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="main-title wow fadeIn" data-wow-delay="300ms">
-                    <h5> Heros of our company </h5>
-                    <h2> creative team </h2>
-                    <p>Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor
-                        nunc vitae diam
-                        eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo
-                        sed mi finibus,
-                        vel tristique risus faucibus. </p>
+                    <h5>{{ site.data[page.lang].team.lead }}</h5>
+                    <h2>{{ site.data[page.lang].team.title }}</h2>
+                    <p>{{ site.data[page.lang].team.content }}</p>
                 </div>
             </div>
         </div>
@@ -270,6 +187,87 @@
                                     <li class="d-inline-block"><a href="javascript:void(0)"
                                             class="twitter-bg-hvr"><i class="ti ti-twitter-alt"
                                                 aria-hidden="true"></i></a></li>
+                                    <li class="d-inline-block"><a href="javascript:void(0)" class="google-bg-hvr"><i
+                                                class="ti ti-google" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-md-12">
+                <div class="main-title wow fadeIn" data-wow-delay="300ms">
+                    <h5>{{ site.data[page.lang].team.consultants.lead }}</h5>
+                    <h2>{{ site.data[page.lang].team.consultants.title }}</h2>
+                    <p>{{ site.data[page.lang].team.consultants.content }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="owl-team owl-carousel wow fadeInUp">
+                    <div class="item grey-shade text-center">
+                        <div class="team-data-img wow fadeIn" data-wow-delay="350ms">
+                            <div class="team-img">
+                                <img src="{{ site.baseurl }}/images/team2.jpg" alt="team" class="img-responsive" data-no-retina>
+                            </div>
+                            <div>
+                                <h4 class="color-black font-weight-normal mt-4 text-capitalize">maria jhonson</h4>
+                                <p class="color-light-grey font-weight-light designation text-capitalize">
+                                    Lead Designer
+                                </p>
+                                <span class="hr-line mt-3 mb-2"></span>
+                                <ul class="team-social">
+                                    <li class="d-inline-block"><a href="javascript:void(0)" class="facebook-bg-hvr"><i
+                                                class="ti ti-facebook" aria-hidden="true"></i></a></li>
+                                    <li class="d-inline-block"><a href="javascript:void(0)" class="twitter-bg-hvr"><i
+                                                class="ti ti-twitter-alt" aria-hidden="true"></i></a></li>
+                                    <li class="d-inline-block"><a href="javascript:void(0)" class="google-bg-hvr"><i
+                                                class="ti ti-google" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item grey-shade text-center">
+                        <div class="team-data-img wow fadeIn" data-wow-delay="350ms">
+                            <div class="team-img">
+                                <img src="{{ site.baseurl }}/images/team3.jpg" alt="team" class="img-responsive" data-no-retina>
+                            </div>
+                            <div>
+                                <h4 class="color-black font-weight-normal mt-4 text-capitalize">alex walkin</h4>
+                                <p class="color-light-grey font-weight-light designation text-capitalize">
+                                    marketing head
+                                </p>
+                                <span class="hr-line mt-3 mb-2"></span>
+                                <ul class="team-social">
+                                    <li class="d-inline-block"><a href="javascript:void(0)" class="facebook-bg-hvr"><i
+                                                class="ti ti-facebook" aria-hidden="true"></i></a></li>
+                                    <li class="d-inline-block"><a href="javascript:void(0)" class="twitter-bg-hvr"><i
+                                                class="ti ti-twitter-alt" aria-hidden="true"></i></a></li>
+                                    <li class="d-inline-block"><a href="javascript:void(0)" class="google-bg-hvr"><i
+                                                class="ti ti-google" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item grey-shade text-center">
+                        <div class="team-data-img wow fadeIn" data-wow-delay="350ms">
+                            <div class="team-img">
+                                <img src="{{ site.baseurl }}/images/team4.jpg" alt="team" class="img-responsive" data-no-retina>
+                            </div>
+                            <div>
+                                <h4 class="color-black font-weight-normal mt-4 text-capitalize">jessica jhonson</h4>
+                                <p class="color-light-grey font-weight-light designation text-capitalize">
+                                    Lead Developer
+                                </p>
+                                <span class="hr-line mt-3 mb-2"></span>
+                                <ul class="team-social">
+                                    <li class="d-inline-block"><a href="javascript:void(0)" class="facebook-bg-hvr"><i
+                                                class="ti ti-facebook" aria-hidden="true"></i></a></li>
+                                    <li class="d-inline-block"><a href="javascript:void(0)" class="twitter-bg-hvr"><i
+                                                class="ti ti-twitter-alt" aria-hidden="true"></i></a></li>
                                     <li class="d-inline-block"><a href="javascript:void(0)" class="google-bg-hvr"><i
                                                 class="ti ti-google" aria-hidden="true"></i></a></li>
                                 </ul>

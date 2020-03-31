@@ -1,1 +1,29 @@
 open_app: Otwórz aplikację
+about:
+  not_virtual_yet: We are not virtual yet offer virtual care
+  support_line: Linia wsparcia i konsultacje psychologiczne dla pracowników
+  mhhelpline_provides: MHHelpline zapewnia bezpieczne i profesjonalne miejsce wsparcia psychologicznego w przestrzeni wirtualnej. Linia umożliwia spotkanie pracowników organizacji ze specjalistami zdrowia psychicznego - psychologami, psychoterapeutami, interwentami, lekarzami - w celu pomocy w rozwiązaniu sytuacji kryzysowych, od codziennych niedogodności do złożonych globalnych tragedii.
+  columns:
+    - title: Zdrowe
+      content: Zespół certyfikowanych specjalistów mental health do wyboru, biorących osobistą odpowiedzialność za proces wsparcia
+      effect: fadeInLeft
+      icon: ti-world
+    - title: Bezpieczne
+      content: Dedykowana, certyfikowana najwyższymi standardami bezpieczeństwa sieciowego technologia umożliwia profesjonalną pomoc psychologiczną
+      effect: fadeInUp
+      icon: ti-ruler-pencil
+      icon: ti-world
+    - title: Dopasowane
+      content: Konsultacje są dostosowane do charakteru wnoszonej sprawy. To pracownik wybiera specjalistę a my zapewniamy poufność i dyskrecję.
+      effect: fadeInRight
+      icon: ti-server
+
+team:
+  lead: Duis suscipit vitae dui sed suscipit
+  title: Zespół projektowy
+  content: Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.
+
+  consultants:
+    lead: Duis suscipit vitae dui sed suscipit
+    title: Konsultanci
+    content: Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.
