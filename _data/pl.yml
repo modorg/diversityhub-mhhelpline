@@ -13,16 +13,16 @@ about:
     - title: Zdrowe
       content: Zespół certyfikowanych specjalistów mental health do wyboru, biorących osobistą odpowiedzialność za proces wsparcia
       effect: fadeInLeft
-      icon: ti-world
+      icon: ti-heart
     - title: Bezpieczne
       content: Dedykowana, certyfikowana najwyższymi standardami bezpieczeństwa sieciowego technologia umożliwia profesjonalną pomoc psychologiczną
       effect: fadeInUp
       icon: ti-ruler-pencil
-      icon: ti-world
+      icon: ti-shield
     - title: Dopasowane
       content: Konsultacje są dostosowane do charakteru wnoszonej sprawy. To pracownik wybiera specjalistę a my zapewniamy poufność i dyskrecję.
       effect: fadeInRight
-      icon: ti-server
+      icon: ti-check-box
 
 team:
   lead: Duis suscipit vitae dui sed suscipit
