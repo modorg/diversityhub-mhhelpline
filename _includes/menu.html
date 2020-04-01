@@ -22,19 +22,13 @@
         <img src="{{ site.baseurl }}/images/banner_small.png" alt="logo" title="Logo"> </a>
       <div class="collapse navbar-collapse d-none d-lg-block">
         <ul class="nav navbar-nav ml-auto menu__list">
-          <li class="nav-item menu__item"> <a href="#home" class="scroll nav-link menu__link">home</a>
+          <li class="nav-item menu__item"> <a href="#home" class="scroll nav-link menu__link">{{ site.data[page.lang].menu.home }}</a>
           </li>
-          <li class="nav-item menu__item"> <a href="#about" class="scroll nav-link menu__link">about</a>
+          <li class="nav-item menu__item"> <a href="#about" class="scroll nav-link menu__link">{{ site.data[page.lang].menu.about }}</a>
           </li>
-          <li class="nav-item menu__item"> <a href="#team" class="scroll nav-link menu__link">team</a>
+          <li class="nav-item menu__item"> <a href="#team" class="scroll nav-link menu__link">{{ site.data[page.lang].menu.team }}</a>
           </li>
-          <li class="nav-item menu__item"> <a href="#work" class="scroll nav-link menu__link">work</a>
-          </li>
-          <li class="nav-item menu__item"> <a href="#pricing" class="scroll nav-link menu__link">pricing</a>
-          </li>
-          <li class="nav-item menu__item"> <a href="#blog" class="scroll nav-link menu__link">blog</a>
-          </li>
-          <li class="nav-item menu__item"> <a href="#contact" class="scroll nav-link menu__link">contact</a>
+          <li class="nav-item menu__item"> <a href="#contact" class="scroll nav-link menu__link">{{ site.data[page.lang].menu.contact }}</a>
           </li>
         </ul>
       </div>
@@ -68,35 +62,19 @@
           <ul class="side-nav-content heading_space">
             <li class="full-menu-hover">
               <div class="nav-item"><span class="d-inline-block">01.</span> <a href="#home"
-                  class="scroll nav-link rotate">home</a></div>
+                  class="scroll nav-link rotate">{{ site.data[page.lang].menu.home }}</a></div>
             </li>
             <li class="full-menu-hover">
               <div class="nav-item"><span class="d-inline-block">02.</span> <a href="#about"
-                  class="scroll nav-link">about</a></div>
+                  class="scroll nav-link">{{ site.data[page.lang].menu.about }}</a></div>
             </li>
             <li class="full-menu-hover">
               <div class="nav-item"><span class="d-inline-block">03.</span> <a href="#team"
-                  class="scroll nav-link">team</a></div>
-            </li>
-            <li class="full-menu-hover">
-              <div class="nav-item"><span class="d-inline-block">04.</span> <a href="#work"
-                  class="scroll nav-link">work</a></div>
-            </li>
-            <li class="full-menu-hover">
-              <div class="nav-item"><span class="d-inline-block">05.</span> <a href="#pricing"
-                  class="scroll nav-link">pricing</a></div>
-            </li>
-            <li class="full-menu-hover">
-              <div class="nav-item"><span class="d-inline-block">06.</span> <a href="#client"
-                  class="scroll nav-link">client</a></div>
-            </li>
-            <li class="full-menu-hover">
-              <div class="nav-item"><span class="d-inline-block">07.</span> <a href="#blog"
-                  class="scroll nav-link">blog</a></div>
+                  class="scroll nav-link">{{ site.data[page.lang].menu.team }}</a></div>
             </li>
             <li class="full-menu-hover">
               <div class="nav-item"><span class="d-inline-block">08.</span> <a href="#contact"
-                  class="scroll nav-link">contact</a>
+                  class="scroll nav-link">{{ site.data[page.lang].menu.contact }}</a>
               </div>
             </li>
           </ul>

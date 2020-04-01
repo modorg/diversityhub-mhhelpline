@@ -1,7 +1,13 @@
+menu:
+  home: główna
+  about: o nas
+  team: zespół
+  contact: kontakt
+
 open_app: Otwórz aplikację
 about:
   not_virtual_yet: We are not virtual yet offer virtual care
-  support_line: Linia wsparcia i konsultacje psychologiczne dla pracowników
+  support_line: Linia wsparcia i konsultacje psychologiczne
   mhhelpline_provides: MHHelpline zapewnia bezpieczne i profesjonalne miejsce wsparcia psychologicznego w przestrzeni wirtualnej. Linia umożliwia spotkanie pracowników organizacji ze specjalistami zdrowia psychicznego - psychologami, psychoterapeutami, interwentami, lekarzami - w celu pomocy w rozwiązaniu sytuacji kryzysowych, od codziennych niedogodności do złożonych globalnych tragedii.
   columns:
     - title: Zdrowe
@@ -36,3 +42,8 @@ team:
     - name: Tomasz Dąbrowski
       role: Creative lead
       image: person_tomek.jpg
+
+footer:
+  text: © 2020 Mental health center by
+  link: Diversityhub
+  link_url: http://www.diversityhub.pl/
