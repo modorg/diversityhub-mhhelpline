@@ -42,7 +42,7 @@
 
 #team .open-app-row .btn-setting {
   position: relative;
-  top: 20px;
+  top: 10px;
 }
 
 @media (min-width: 768px) {
@@ -54,4 +54,10 @@
 
 #about .main-title h2, #contact h2 {
   font-size: 2rem;
+}
+
+.btn-setting {
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  font-weight: bold;
 }
