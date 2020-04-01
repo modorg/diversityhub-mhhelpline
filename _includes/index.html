@@ -111,6 +111,39 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="main-title wow fadeIn" data-wow-delay="300ms">
+                    <h5>{{ site.data[page.lang].team.consultants.lead }}</h5>
+                    <h2>{{ site.data[page.lang].team.consultants.title }}</h2>
+                    <p>{{ site.data[page.lang].team.consultants.content }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="owl-team owl-carousel wow fadeInUp">
+                    {% for person in site.data[page.lang].team.consultants.people %}
+                        {% include person.html person=person.name role=person.role image=person.image modal=person.modal wow='wow' %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="row pt-5 pb-5 open-app-row">
+            <div class="col-12 offset-4 small-arrow-bg">
+                <a href="{{ site.app_url }}"
+                    class="btn-setting btn-hvr-setting-main btn-yellow">{{ site.data[page.lang].open_app }}
+                    <span class="btn-hvr-setting btn-hvr-white">
+                        <span class="btn-hvr-setting-inner">
+                            <span class="btn-hvr-effect"></span>
+                            <span class="btn-hvr-effect"></span>
+                            <span class="btn-hvr-effect"></span>
+                            <span class="btn-hvr-effect"></span>
+                        </span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-md-12">
+                <div class="main-title wow fadeIn" data-wow-delay="300ms">
                     <h5>{{ site.data[page.lang].team.lead }}</h5>
                     <h2>{{ site.data[page.lang].team.title }}</h2>
                     <p>{{ site.data[page.lang].team.content }}</p>
@@ -123,160 +156,6 @@
                     {% for person in site.data[page.lang].team.people %}
                         {% include person.html person=person.name role=person.role image=person.image modal=person.modal wow='wow' %}
                     {% endfor %}
-
-                    <div class="item grey-shade text-center">
-                        <div class="team-data-img wow fadeIn" data-wow-delay="350ms">
-                            <div class="team-img">
-                                <img src="{{ site.baseurl }}/images/team2.jpg" alt="team" class="img-responsive" data-no-retina>
-                            </div>
-                            <div>
-                                <h4 class="color-black font-weight-normal mt-4 text-capitalize">maria jhonson</h4>
-                                <p class="color-light-grey font-weight-light designation text-capitalize">
-                                    Lead Designer
-                                </p>
-                                <span class="hr-line mt-3 mb-2"></span>
-                                <ul class="team-social">
-                                    <li class="d-inline-block"><a href="javascript:void(0)"
-                                            class="facebook-bg-hvr"><i class="ti ti-facebook"
-                                                aria-hidden="true"></i></a></li>
-                                    <li class="d-inline-block"><a href="javascript:void(0)"
-                                            class="twitter-bg-hvr"><i class="ti ti-twitter-alt"
-                                                aria-hidden="true"></i></a></li>
-                                    <li class="d-inline-block"><a href="javascript:void(0)" class="google-bg-hvr"><i
-                                                class="ti ti-google" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item grey-shade text-center">
-                        <div class="team-data-img wow fadeIn" data-wow-delay="350ms">
-                            <div class="team-img">
-                                <img src="{{ site.baseurl }}/images/team3.jpg" alt="team" class="img-responsive" data-no-retina>
-                            </div>
-                            <div>
-                                <h4 class="color-black font-weight-normal mt-4 text-capitalize">alex walkin</h4>
-                                <p class="color-light-grey font-weight-light designation text-capitalize">
-                                    marketing head
-                                </p>
-                                <span class="hr-line mt-3 mb-2"></span>
-                                <ul class="team-social">
-                                    <li class="d-inline-block"><a href="javascript:void(0)"
-                                            class="facebook-bg-hvr"><i class="ti ti-facebook"
-                                                aria-hidden="true"></i></a></li>
-                                    <li class="d-inline-block"><a href="javascript:void(0)"
-                                            class="twitter-bg-hvr"><i class="ti ti-twitter-alt"
-                                                aria-hidden="true"></i></a></li>
-                                    <li class="d-inline-block"><a href="javascript:void(0)" class="google-bg-hvr"><i
-                                                class="ti ti-google" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item grey-shade text-center">
-                        <div class="team-data-img wow fadeIn" data-wow-delay="350ms">
-                            <div class="team-img">
-                                <img src="{{ site.baseurl }}/images/team4.jpg" alt="team" class="img-responsive" data-no-retina>
-                            </div>
-                            <div>
-                                <h4 class="color-black font-weight-normal mt-4 text-capitalize">jessica jhonson</h4>
-                                <p class="color-light-grey font-weight-light designation text-capitalize">
-                                    Lead Developer
-                                </p>
-                                <span class="hr-line mt-3 mb-2"></span>
-                                <ul class="team-social">
-                                    <li class="d-inline-block"><a href="javascript:void(0)"
-                                            class="facebook-bg-hvr"><i class="ti ti-facebook"
-                                                aria-hidden="true"></i></a></li>
-                                    <li class="d-inline-block"><a href="javascript:void(0)"
-                                            class="twitter-bg-hvr"><i class="ti ti-twitter-alt"
-                                                aria-hidden="true"></i></a></li>
-                                    <li class="d-inline-block"><a href="javascript:void(0)" class="google-bg-hvr"><i
-                                                class="ti ti-google" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row pt-5">
-            <div class="col-md-12">
-                <div class="main-title wow fadeIn" data-wow-delay="300ms">
-                    <h5>{{ site.data[page.lang].team.consultants.lead }}</h5>
-                    <h2>{{ site.data[page.lang].team.consultants.title }}</h2>
-                    <p>{{ site.data[page.lang].team.consultants.content }}</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="owl-team owl-carousel wow fadeInUp">
-                    <div class="item grey-shade text-center">
-                        <div class="team-data-img wow fadeIn" data-wow-delay="350ms">
-                            <div class="team-img">
-                                <img src="{{ site.baseurl }}/images/team2.jpg" alt="team" class="img-responsive" data-no-retina>
-                            </div>
-                            <div>
-                                <h4 class="color-black font-weight-normal mt-4 text-capitalize">maria jhonson</h4>
-                                <p class="color-light-grey font-weight-light designation text-capitalize">
-                                    Lead Designer
-                                </p>
-                                <span class="hr-line mt-3 mb-2"></span>
-                                <ul class="team-social">
-                                    <li class="d-inline-block"><a href="javascript:void(0)" class="facebook-bg-hvr"><i
-                                                class="ti ti-facebook" aria-hidden="true"></i></a></li>
-                                    <li class="d-inline-block"><a href="javascript:void(0)" class="twitter-bg-hvr"><i
-                                                class="ti ti-twitter-alt" aria-hidden="true"></i></a></li>
-                                    <li class="d-inline-block"><a href="javascript:void(0)" class="google-bg-hvr"><i
-                                                class="ti ti-google" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item grey-shade text-center">
-                        <div class="team-data-img wow fadeIn" data-wow-delay="350ms">
-                            <div class="team-img">
-                                <img src="{{ site.baseurl }}/images/team3.jpg" alt="team" class="img-responsive" data-no-retina>
-                            </div>
-                            <div>
-                                <h4 class="color-black font-weight-normal mt-4 text-capitalize">alex walkin</h4>
-                                <p class="color-light-grey font-weight-light designation text-capitalize">
-                                    marketing head
-                                </p>
-                                <span class="hr-line mt-3 mb-2"></span>
-                                <ul class="team-social">
-                                    <li class="d-inline-block"><a href="javascript:void(0)" class="facebook-bg-hvr"><i
-                                                class="ti ti-facebook" aria-hidden="true"></i></a></li>
-                                    <li class="d-inline-block"><a href="javascript:void(0)" class="twitter-bg-hvr"><i
-                                                class="ti ti-twitter-alt" aria-hidden="true"></i></a></li>
-                                    <li class="d-inline-block"><a href="javascript:void(0)" class="google-bg-hvr"><i
-                                                class="ti ti-google" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item grey-shade text-center">
-                        <div class="team-data-img wow fadeIn" data-wow-delay="350ms">
-                            <div class="team-img">
-                                <img src="{{ site.baseurl }}/images/team4.jpg" alt="team" class="img-responsive" data-no-retina>
-                            </div>
-                            <div>
-                                <h4 class="color-black font-weight-normal mt-4 text-capitalize">jessica jhonson</h4>
-                                <p class="color-light-grey font-weight-light designation text-capitalize">
-                                    Lead Developer
-                                </p>
-                                <span class="hr-line mt-3 mb-2"></span>
-                                <ul class="team-social">
-                                    <li class="d-inline-block"><a href="javascript:void(0)" class="facebook-bg-hvr"><i
-                                                class="ti ti-facebook" aria-hidden="true"></i></a></li>
-                                    <li class="d-inline-block"><a href="javascript:void(0)" class="twitter-bg-hvr"><i
-                                                class="ti ti-twitter-alt" aria-hidden="true"></i></a></li>
-                                    <li class="d-inline-block"><a href="javascript:void(0)" class="google-bg-hvr"><i
-                                                class="ti ti-google" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -305,53 +184,37 @@
 <section id="contact">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
-                <div class="main-title text-left sm-text-center contact-para-setting">
+            <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                <div class="main-title sm-text-center">
                     <div class="main-title m-0">
                         <h5 class="text-left text-center text-capitalize"> Let's Get In Touch </h5>
                     </div>
-                    <h2 class="text-center"> awaza designs</h2>
-                    <p> Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor
-                        nunc vitae
-                        diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus.</p>
+                    <h2 class="text-center">Mental health center by Diversityhub</h2>
+                    <p>Diversity Hub to think-tank, którego misją jest rozwój biznesu dzięki różnorodności.</p>
                 </div>
                 <div class="col-md-12 p-0">
-                    <div class="col-lg-6 col-md-6 col-sm-6 p-0 float-left">
-                        <div class="contact-info sm-text-center">
-                            <h5 class="font-secondary font-weight-600 color-yellow text-capitalize">
-                                United States
-                            </h5>
-                            <div class="icon-box">
-                                <i class="ti ti-mobile color-grey"></i>
-                                <p class="color-grey"> +(34) 609 33 17 54</p>
-                            </div>
-                            <div class="icon-box">
-                                <i class="ti ti-email color-grey"></i>
-                                <p> <a href="mailto:email@website.com" class="color-grey">email@website.com</a></p>
-                            </div>
-                            <div class="icon-box">
-                                <i class="ti ti-location-pin color-grey"></i>
-                                <p class="color-grey"> 201 Oak Street Building 27 Manchester, USA</p>
+                    <div class="row">
+                        <div class="col-6 p-0 float-left">
+                            <div class="contact-info sm-text-center">
+                                <h5 class="font-secondary font-weight-600 color-yellow text-capitalize">
+                                    Polska
+                                </h5>
+                                <div class="icon-box">
+                                    <i class="ti ti-mobile color-grey"></i>
+                                    <p class="color-grey"> (12) 353 05 59</p>
+                                </div>
+                                <div class="icon-box">
+                                    <i class="ti ti-email color-grey"></i>
+                                    <p> <a href="mailto:info@diversityhub.pl" class="color-grey">info@diversityhub.pl</a></p>
+                                </div>
+                                <div class="icon-box">
+                                    <i class="ti ti-location-pin color-grey"></i>
+                                    <p class="color-grey"> Ul. Poznańska 6/4 30-012 Kraków</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 p-0 float-left">
-                        <div class="contact-info mt-xxs-40px sm-text-center">
-                            <h5 class="font-secondary font-weight-600 color-yellow text-capitalize">
-                                Australia
-                            </h5>
-                            <div class="icon-box">
-                                <i class="ti ti-mobile color-grey"></i>
-                                <p class="color-grey"> +(05) 154 35 3695</p>
-                            </div>
-                            <div class="icon-box">
-                                <i class="ti ti-email color-grey"></i>
-                                <p> <a href="mailto:email@website.com" class="color-grey">email@website.com</a></p>
-                            </div>
-                            <div class="icon-box">
-                                <i class="ti ti-location-pin color-grey"></i>
-                                <p class="color-grey"> 201 Oak Street Building 27 Sydney, USA</p>
-                            </div>
+                        <div class="col-6">
+                            <img src="{{ site.baseurl }}/images/DH logo.png" alt="DH logo.png">
                         </div>
                     </div>
                 </div>

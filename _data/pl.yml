@@ -25,23 +25,54 @@ about:
       icon: ti-check-box
 
 team:
-  lead: Duis suscipit vitae dui sed suscipit
-  title: Zespół projektowy
-  content: Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.
+  lead: Troszczymy się o stabilność i wiarygodność
+  title: Zarząd
+  content: Jesteśmy całe życie związani z wsparciem zdrowia psychicznego w organizacjach. Jesteśmy ekspertami w swoich dziedzinach. Bierzemy odpowiedzialność. Jesteśmy przyjaciółmi.
 
   consultants:
-    lead: Duis suscipit vitae dui sed suscipit
+    lead: Wspieramy w kryzysie, niesiemy pomoc
     title: Konsultanci
-    content: Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.
+    content: Wierzymy, że psychologia może dokonać znaczących zmian w życiu. Nasz zespół opiera się na kompetencji i uczciwości. Reprezentujemy różne nurty pomocy.
+    people:
+      - name: Ania Czereszewska
+        role: Konsultant
+        image: person_ania_cz.jpg
+    people:
+      - name: Anna Kotulak
+        role: Konsultant
+        image: person_anna_k.jpg
+      - name: Jan Klusak
+        role: Konsultant
+        image: person_jan.jpg
+      - name: Joanna Suchowska Oruba
+        role: Konsultant
+        image: person_joanna.jpg
+      - name: Karolina Ciesielska
+        role: Konsultant
+        image: person_karolina.jpg
+      - name: Kasia Bryczek
+        role: Konsultant
+        image: person_kasia.jpg
+      - name: Szymon Czapliński
+        role: Konsultant
+        image: person_szymon.jpg
+
 
   people:
     - name: Tadeusz Reimus
-      role: Creative lead
+      role: Helpline Director
       image: person_tadek.jpg
       modal: .modal-person1
     - name: Tomasz Dąbrowski
-      role: Creative lead
+      role: V-ce President
       image: person_tomek.jpg
+    - name: Małgorzata Wypych
+      role: MH Director
+      image: person_gosia.jpg
+    - name: Piotr Stajura
+      role: IT Director
+      image: person_piotr.jpg
+
 
 footer:
   text: © 2020 Mental health center by
