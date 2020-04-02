@@ -44,7 +44,7 @@ team:
         role: psycholog, coach
         image: person_jan.jpg
       - name: Joanna Suchowska Oruba
-        role: psycholog, psychoterapeuta
+        role: psycholog, interwent
         image: person_joanna.jpg
       - name: Karolina Ciesielka
         role: psycholog, psychoterapeuta
@@ -53,7 +53,7 @@ team:
         role: psycholog, psychoterapeuta
         image: person_kasia.jpg
       - name: Szymon Czapliński
-        role: psycholog, psychoterapeuta
+        role: psycholog, psychoterapeuta, coach
         image: person_szymon.jpg
 
 
