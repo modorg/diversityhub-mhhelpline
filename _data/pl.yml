@@ -35,26 +35,25 @@ team:
     content: Wierzymy, że psychologia może dokonać znaczących zmian w życiu. Nasz zespół opiera się na kompetencji i uczciwości. Reprezentujemy różne nurty pomocy.
     people:
       - name: Ania Czereszewska
-        role: Konsultant
+        role: psycholog, psychoterapeuta
         image: person_ania_cz.jpg
-    people:
       - name: Anna Kotulak
-        role: Konsultant
+        role: psycholog, psychoterapeuta
         image: person_anna_k.jpg
       - name: Jan Klusak
-        role: Konsultant
+        role: psycholog, coach
         image: person_jan.jpg
       - name: Joanna Suchowska Oruba
-        role: Konsultant
+        role: psycholog, psychoterapeuta
         image: person_joanna.jpg
-      - name: Karolina Ciesielska
-        role: Konsultant
+      - name: Karolina Ciesielka
+        role: psycholog, psychoterapeuta
         image: person_karolina.jpg
       - name: Kasia Bryczek
-        role: Konsultant
+        role: psycholog, psychoterapeuta
         image: person_kasia.jpg
       - name: Szymon Czapliński
-        role: Konsultant
+        role: psycholog, psychoterapeuta
         image: person_szymon.jpg
 
 
