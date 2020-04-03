@@ -37,40 +37,87 @@ team:
       - name: Ania Czereszewska
         role: psycholog, psychoterapeuta
         image: person_ania_cz.jpg
+        modal: .modal-ania_cz
+        modal_content:
+          description:
+            - Jestem psychologiem, terapeutą pracującym w nurcie systemowym i rodzicielstwa bliskości. Od 2004 r wspieram rodziców dzieci w wieku szkolnym. W czasie konsultacji zwracam uwagę na zasoby rodziny, możliwe sposoby rozwiązań, uznając, że to rodzice podejmują decyzję o wyborze opcji, tego, co uważają za wspierające.
       - name: Anna Kotulak
         role: psycholog, psychoterapeuta
         image: person_anna_k.jpg
-      - name: Jan Klusak
+        modal: .modal-anna_k
+        modal_content:
+          description:
+            - Jestem psychologiem, absolwentką Psychologii Stosowanej UJ oraz psychoterapeutką w trakcie Kursu Psychoterapii Psychoanalitycznej atestowanego przez Polskie Towarzystwo Psychiatryczne. Zajmuję się psychodynamiczną terapią indywidualną i wsparciem osób dorosłych w obszarze zaburzeń nastroju, zaburzeń lękowych jak również tych, którzy w obliczu trudności w różnych sferach swojego życia doświadczają kryzysów rozwojowych.
+      - name: Jan Kłusak
         role: psycholog, coach
         image: person_jan.jpg
+        modal: .modal-jan
+        modal_content:
+          description:
+            - Psycholog i certyfikowany coach. Od 15 lat zajmuję się prowadzeniem projektów z zakresu wsparcia i rozwoju ludzi oraz organizacji. Prowadziłem doradztwo dla kilkuset zwalnianych osób w ramach programów outplacement. Pomagam pracownikom i firmom w sytuacji zmiany i kryzysów zarówno pod kątem potrzeb psychologicznych, jak i biznesowych.
       - name: Joanna Suchowska Oruba
         role: psycholog, interwent
         image: person_joanna.jpg
+        modal: .modal-joanna
+        modal_content:
+          description:
+            - Jestem psychologiem i wykładowcą uniwersyteckim. Poprzez konsultacje indywidualne i warsztaty wspieram rodziców w budowaniu relacji z dziećmi opartych na poczuciu bezpieczeństwa i szacunku, a także w codziennych trudnościach rodzicielskich . Pracuję także z osobami doświadczającymi kryzysu, m.in. rozpadu związku, żałoby, utraty pracy, przemocy itp.
+            - Swoją pracę opieram na podejściu systemowym, (biorąc pod uwagę otoczenie klienta i szeroko rozumiane relacje), a także porozumieniu bez przemocy i rodzicielstwie bliskości.
+            - Jestem żoną i mamą trójki dzieci.
       - name: Karolina Ciesielka
         role: psycholog, psychoterapeuta
         image: person_karolina.jpg
+        modal: .modal-karolina
+        modal_content:
+          description:
+            - Jestem psychologiem oraz psychoterapeutą w trakcie całościowego, 4-letniego szkolenia przygotowującego do uzyskania certyfikatu terapeuty poznawczo-behawioralnego. Ukończyłam studia Psychologii Stosowanej na Uniwersytecie Jagiellońskim, jestem członkiem Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej. Moje zainteresowania kliniczne dotyczą w szczególności zaburzeń afektywnych, zaburzeń lękowych, regulacji emocjonalnej oraz rozwijania poczucia własnej wartości. Pracuję zarówno z osobami dorosłymi jak i z młodzieżą w ujęciu poznawczo-behawioralnym. Swoją pracę poddaję regularnej superwizji, stale podnoszę swoje kwalifikacje oraz aktualizuję wiedzę o najnowsze doniesienia naukowe.
       - name: Kasia Bryczek
         role: psycholog, psychoterapeuta
         image: person_kasia.jpg
+        modal: .modal-kasia
+        modal_content:
+          description:
+            - Jestem psycholożką i psychoterapeutką w trakcie czteroletniej Szkoły Psychoterapii Poznawczo- Behawioralnej. Należę do Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej. Pracuję indywidualnie z osobami dorosłymi, które zmagają się z nadmiernym niepokojem i  lękiem, doświadczają problemów emocjonalnych, zaburzeń związanych ze stresem i traumą czy trudności w relacjach z innymi.
       - name: Szymon Czapliński
         role: psycholog, psychoterapeuta, coach
         image: person_szymon.jpg
+        modal: .modal-szymon
+        modal_content:
+          description:
+            - Jestem psychologiem z doświadczeniem bycia coachem i trenerem w organizacjach biznesowych. Jako psychoterapeuta pracuję z osobami dorosłymi przede wszystkim w ujęciu systemowo-psychodynamicznym.
+            - Z klientami najczęściej pracujemy nad ich stanami lękowymi i obniżonym nastrojem, często z depresją. Najważniejsze dla mnie, jako psychologa i terapeuty, to rzeczywiste zaangażowanie w pracę z klientem, poświęcanie mu pełni uwagi i wykorzystywanie całej swojej wiedzy i umiejętności.
 
 
   people:
     - name: Tadeusz Reimus
       role: Helpline Director
       image: person_tadek.jpg
-      modal: .modal-person1
+      modal: .modal-tadek
+      modal_content:
+        header: Tadeusz Reimus – psychoerapeuta, konsultant, coach
+        description:
+          - Praktykujący psychoterapeuta w nurcie integratywnym, akredytowany coach International Coach Federation na poziomie PCC (Proffesional Certified Coach); z wykształcenia i powołania psycholog.
+          - Absolwent filozofii i psychologii Uniwersytetu Jagiellońskiego, stypendysta Uniwersytetu w Tilburgu, Holandia;
+          - Ma za sobą osiemnastoletnie doświadczenie w pracy z organizacjami; wiedzę i umiejętności z zakresu organizacji i wdrażania interwencji, programów pomocowych, polityk szkoleniowych.
     - name: Tomasz Dąbrowski
       role: V-ce President
       image: person_tomek.jpg
+      modal: .modal-tomek
+      modal_content:
+        description:
+          - Ekspert Diversity & Inclusion, realizujący wdrożenia dla największych firm w Polsce. Wprowadził przedmiot „Zarządzanie różnorodnością” do programu studiów na Uniwersytecie Jagiellońskim.
+          - Współtwórca metodyk badawczych (ESA – satysfakcja pracowników, AOC – kultura organizacyjna, Diversity Audit). Ekspert w międzynarodowych projektach badawczych oraz projektach rozwoju innowacji w obszarze zarządzania ludźmi.
     - name: Małgorzata Wypych
       role: MH Director
       image: person_gosia.jpg
+      modal: .modal-gosia
+      modal_content:
+        description:
+          - Psycholog, psychoterapeuta. Jedna z niewielu osób w Polsce zajmująca się zjawiskiem plotki. Bada czynniki utrudniające regulację emocji w pracy.
     - name: Piotr Stajura
       role: IT Director
       image: person_piotr.jpg
+      modal: .modal-piotr
 
 
 footer:

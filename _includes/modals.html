@@ -1,4 +1,5 @@
-<div class="modal fade modal-person1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+{% for person in site.data[page.lang].team.people %}
+<div class="modal fade {{person.modal | remove: '.'}}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
   aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -11,25 +12,16 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-6">
-              {% include person.html person='Tadeusz Reimus' role='Creative lead' image='person_tadek.jpg' %}
+              {% include person.html person=person.name role=person.role image=person.image modal=person.modal %}
             </div>
             <div class="col-lg-6">
               <h3>
-                Tadeusz Reimus – psychoerapeuta, konsultant, coach
+                {% assign default_header = person.name | append: ' - ' | append: person.role %}
+                {{ person.modal_content.header | default: default_header }}
               </h3>
-              <p>
-                Praktykujący psychoterapeuta w nurcie integratywnym, akredytowany coach International Coach Federation na poziomie PCC
-                (Proffesional Certified Coach); z wykształcenia i powołania psycholog.
-              </p>
-              <br/>
-              <p>
-                Absolwent filozofii i psychologii Uniwersytetu Jagiellońskiego, stypendysta Uniwersytetu w Tilburgu, Holandia;
-              </p>
-              <br/>
-              <p>
-                Ma za sobą osiemnastoletnie doświadczenie w pracy z organizacjami; wiedzę i umiejętności z zakresu organizacji i
-                wdrażania interwencji, programów pomocowych, polityk szkoleniowych.
-              </p>
+              {% for p in person.modal_content.description %}
+                <p>{{p}}</p><br/>
+              {% endfor %}
             </div>
           </div>
         </div>
@@ -37,3 +29,37 @@
     </div>
   </div>
 </div>
+{% endfor %}
+
+{% for person in site.data[page.lang].team.consultants.people %}
+<div class="modal fade {{person.modal | remove: '.'}}" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6">
+              {% include person.html person=person.name role=person.role image=person.image modal=person.modal %}
+            </div>
+            <div class="col-lg-6">
+              <h3>
+                {% assign default_header = person.name | append: ' - ' | append: person.role %}
+                {{ person.modal_content.header | default: default_header }}
+              </h3>
+              {% for p in person.modal_content.description %}
+                <p>{{p}}</p><br/>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
