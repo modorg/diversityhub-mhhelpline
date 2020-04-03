@@ -2,6 +2,19 @@
 ---
 
 /*-- Use For Custom Styling --*/
+.lang-pl {
+  background-image: url("{{ site.baseurl }}/images/pl_flag.png");
+  background-position: center;
+  position: relative;
+  top: 10px;
+}
+
+.lang-en {
+  background-image: url("{{ site.baseurl }}/images/en_flag.png");
+  background-position: center;
+  position: relative;
+  top: 10px;
+}
 
 .rs-addon-beforeafter-before {
   background-image: url("{{ site.baseurl }}/images/brush_swipe.png");
