@@ -14,7 +14,7 @@
             <div class="col-lg-6">
               {% include person.html person=person.name role=person.role image=person.image modal=person.modal %}
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 second-column">
               <h3>
                 {% assign default_header = person.name | append: ' - ' | append: person.role %}
                 {{ person.modal_content.header | default: default_header }}
@@ -47,7 +47,7 @@
             <div class="col-lg-6">
               {% include person.html person=person.name role=person.role image=person.image modal=person.modal %}
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 second-column">
               <h3>
                 {% assign default_header = person.name | append: ' - ' | append: person.role %}
                 {{ person.modal_content.header | default: default_header }}

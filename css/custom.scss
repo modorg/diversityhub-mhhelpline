@@ -45,20 +45,15 @@
   top: 4px;
 }
 
-// @media (min-width: 768px) {
-//   #team .open-app-row .btn-setting {
-//     position: relative;
-//     left: 150px;
-//   }
-// }
+.modal-body .second-column p {
+  text-align: justify;
+}
 
-// @media (max-width: 768px) {
 #team .open-app-row.small-arrow-bg {
   background-size: 85px;
   background-position-y: 50px;
   background-position-x: 20%;
 }
-// }
 
 #about .main-title h2, #contact h2 {
   font-size: 2rem;
