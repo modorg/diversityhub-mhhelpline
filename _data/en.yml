@@ -120,6 +120,9 @@ team:
       image: person_piotr.jpg
       modal: .modal-piotr
 
+contact:
+  lead: Diversity Hub is a think-tank whose mission is to develop business through diversity.
+
 
 footer:
   text: © 2020 Mental health center by
