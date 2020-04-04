@@ -990,7 +990,7 @@ header .navbar-top-default .header-social a {
     border: 1px solid transparent;
     border-radius: 50%;
 }
-header .navbar-top-default .header-social a:hover {
+header .navbar-top-default .header-social a:hover:not(.lang) {
     background: #ffffff;
 }
 header .transparent-bg.navbar-top-default .header-social a {
@@ -1012,7 +1012,7 @@ header .fixed-menu.navbar-top-default .header-social a.linkedin-text-hvr:hover {
     color: #ffffff !important;
 }
 
-header .fixed-menu.navbar-top-default .header-social a:hover {
+header .fixed-menu.navbar-top-default .header-social a:hover:not(.lang) {
     background: transparent;
 }
 /* bottom nav */

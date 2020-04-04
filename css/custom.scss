@@ -2,18 +2,27 @@
 ---
 
 /*-- Use For Custom Styling --*/
-.lang-pl {
-  background-image: url("{{ site.baseurl }}/images/pl_flag.png");
+.header-social a.lang {
   background-position: center;
   position: relative;
-  top: 10px;
+  top: 8px;
+  filter: grayscale(60%);
+}
+.header-social a.lang.active {
+  border: solid 1px;
+}
+
+.header-social a.lang:hover {
+  background-color: none;
+  filter: none;
+}
+
+.lang-pl {
+  background-image: url("{{ site.baseurl }}/images/pl_flag.png");
 }
 
 .lang-en {
   background-image: url("{{ site.baseurl }}/images/en_flag.png");
-  background-position: center;
-  position: relative;
-  top: 10px;
 }
 
 .rs-addon-beforeafter-before {
