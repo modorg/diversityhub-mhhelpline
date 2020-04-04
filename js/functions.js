@@ -11,6 +11,11 @@ jQuery(window).on("load", function () {
             scrollTop: $("#team").offset().top
         }, 1);
     })
+
+    if(window.location.pathname.includes('en'))
+        $('.lang-en').addClass('active');
+    else
+        $('.lang-pl').addClass('active');
 });
 
 jQuery(function ($) {

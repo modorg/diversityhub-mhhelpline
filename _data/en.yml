@@ -1,1 +1,130 @@
+menu:
+  home: home
+  about: about
+  team: team
+  contact: contact
+
 open_app: Open the app
+about:
+  not_virtual_yet: We are not virtual yet offer virtual care
+  support_line: Support line and psychological consultation
+  mhhelpline_provides: MHHelpline provides a safe and professional place for psychological support in virtual space. The line allows the organization's employees to meet with mental health specialists - psychologists, psychotherapists, interviewees, doctors - to help solve crisis situations, from everyday inconveniences to complex global tragedies.
+  columns:
+    - title: Healthy
+      content: A team of certified mental health professionals of your choice, taking personal responsibility for the support process
+      effect: fadeInLeft
+      icon: ti-heart
+    - title: Safe
+      content: Dedicated, certified highest standards of network security technology enables professional psychological assistance
+      effect: fadeInUp
+      icon: ti-ruler-pencil
+      icon: ti-shield
+    - title: Matching
+      content: The consultation shall be tailored to the nature of the case being brought. It is the employee who chooses the specialist and we ensure confidentiality and discretion.
+      effect: fadeInRight
+      icon: ti-check-box
+
+team:
+  lead: We care about stability and credibility
+  title: The Management Board
+  content: We have a lifelong commitment to mental health support in organizations. We are experts in our fields. We take responsibility. We are friends.
+
+  consultants:
+    lead: We support in the crisis, we bring help
+    title: Team
+    content: We believe that psychology can make a difference in life. Our team is based on competence and honesty. We represent different streams of help.
+    people:
+      - name: Ania Czereszewska
+        role: psychologist, psychotherapist
+        image: person_ania_cz.jpg
+        modal: .modal-ania_cz
+        modal_content:
+          description:
+            - I'm a psychologist, a therapist working in the system and proximity parenting. Since 2004 I have been supporting parents of school children. During the consultations I pay attention to the family's resources, possible solutions, recognizing that it is the parents who make the decision to choose the option, what they consider supporting.
+      - name: Anna Kotulak
+        role: psychologist, psychotherapist
+        image: person_anna_k.jpg
+        modal: .modal-anna_k
+        modal_content:
+          description:
+            - I am a psychologist, graduate of Jagiellonian University, and psychotherapist in training in Psychoanalytic Therapy Course attested by Polish Psychiatric Association. I am conducting psychodynamic therapy and support for adults facing mood disorders, anxiety disorders as well as those who experience developmental crises in the face of difficulties in various areas of their lives.
+      - name: Jan Kłusak
+        role: psychologist, coach
+        image: person_jan.jpg
+        modal: .modal-jan
+        modal_content:
+          description:
+            - Psychologist and certified coach. For 15 years I have been running projects in the field of support and development of people and organizations. I have provided counseling for several hundred dismissed people in outplacement programs. I help employees and companies in situations of change and crises, both in terms of psychological and business needs.
+      - name: Joanna Suchowska Oruba
+        role: psychologist, interwent
+        image: person_joanna.jpg
+        modal: .modal-joanna
+        modal_content:
+          description:
+            - I am a psychologist and a university lecturer. Through individual consultations and workshops I support parents in building relationships with their children based on a sense of safety and respect, as well as in everyday parental difficulties. I also work with people experiencing crisis, such as relationship breakdown, mourning, job loss, violence, etc.
+            - I base my work on a systemic approach (taking into account the client's environment and broadly understood relationships), as well as non-violent agreement and proximity parenthood.
+            - I'm a wife and a mother of three.
+      - name: Karolina Ciesielka
+        role: psychologist, psychotherapist
+        image: person_karolina.jpg
+        modal: .modal-karolina
+        modal_content:
+          description:
+            - I am a psychologist and psychotherapist in the course of comprehensive in cognitive-behavioural approach, preparing to obtain a psychotherapist certificate. I graduated from Applied Psychology at Jagiellonian University with the speciality in neuropsychology, I am a Member of a Polish Society of Cognitive-Behavioral Psychotherapy.
+            - I am mostly interested in working with affective disorders, anxiety disorders, obsessive-compulsive disorder, emotional regulation and self-esteem in a cognitive-behavioral approach. I work either with adults and youth. My therapeutic work is regularly monitored by certified supervisors. I constantly improve my professional qualifications by participating in various training in the field of psychotherapy.
+      - name: Kasia Bryczek
+        role: psychologist, psychotherapist
+        image: person_kasia.jpg
+        modal: .modal-kasia
+        modal_content:
+          description:
+            - I am a psychologist and psychotherapist, currently under training at the School of Cognitive- Behavioural Psychotherapy. I am a member of the Polish Association for Cognitive and Behavioural Therapy. I work with adults who struggle with anxiety, emotional difficulties, relationship issues or stress and trauma-related disorders.
+      - name: Szymon Czapliński
+        role: psychologist, psychotherapist, coach
+        image: person_szymon.jpg
+        modal: .modal-szymon
+        modal_content:
+          description:
+            - I am a psychologist with experience of being a coach and coach in business organizations. As a psychotherapist I work with adults mainly in the system-psychodynamic perspective.
+            - We usually work with clients on their anxiety and reduced moods, often with depression. As a psychologist and therapist, the most important thing for me is to really engage with the client, pay full attention to them and use all my knowledge and skills.
+
+
+  people:
+    - name: Tadeusz Reimus
+      role: Helpline Director
+      image: person_tadek.jpg
+      modal: .modal-tadek
+      modal_content:
+        header: Tadeusz Reimus – psychoerapeuta, konsultant, coach
+        description:
+          - A practicing integrative psychotherapist, accredited coach of the International Coach Federation at the PCC (Proffesional Certified Coach) level; trained and appointed psychologist.
+          - Graduate of philosophy and psychology at the Jagiellonian University, scholarship holder at the University of Tilburg, the Netherlands;
+          - He has eighteen years of experience in working with organisations; knowledge and skills in the organisation and implementation of interventions, aid programmes, training policies.
+    - name: Tomasz Dąbrowski
+      role: V-ce President
+      image: person_tomek.jpg
+      modal: .modal-tomek
+      modal_content:
+        description:
+          - An expert in Diversity & Inclusion, carrying out implementations for the largest companies in Poland. He introduced the subject "Diversity Management" to the study program at the Jagiellonian University.
+          - Co-founder of research methodologies (ESA - employee satisfaction, AOC - organizational culture, Diversity Audit). Expert in international research projects and innovation development projects in the area of people management.
+    - name: Małgorzata Wypych
+      role: MH Director
+      image: person_gosia.jpg
+      modal: .modal-gosia
+      modal_content:
+        description:
+          - Psychologist, psychotherapist. One of the few people in Poland who deals with the phenomenon of rumours. She investigates factors that make it difficult to regulate emotions at work.
+    - name: Piotr Stajura
+      role: IT Director
+      image: person_piotr.jpg
+      modal: .modal-piotr
+
+contact:
+  lead: Diversity Hub is a think-tank whose mission is to develop business through diversity.
+
+
+footer:
+  text: © 2020 Mental Health Helpline by
+  link: Diversityhub
+  link_url: http://www.diversityhub.pl/

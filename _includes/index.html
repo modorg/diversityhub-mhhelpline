@@ -126,8 +126,8 @@
                 </div>
             </div>
         </div>
-        <div class="row pt-5 pb-5 open-app-row">
-            <div class="col-12 offset-4 small-arrow-bg">
+        <div class="row pt-5 pb-5 open-app-row small-arrow-bg">
+            <div class="col-12 text-md-center text-right text-md-center">
                 <a href="{{ site.app_url }}"
                     class="btn-setting btn-hvr-setting-main btn-yellow">{{ site.data[page.lang].open_app }}
                     <span class="btn-hvr-setting btn-hvr-white">
@@ -190,7 +190,7 @@
                         <h5 class="text-left text-center text-capitalize"> Let's Get In Touch </h5>
                     </div>
                     <h2 class="text-center">Mental health center by Diversityhub</h2>
-                    <p>Diversity Hub to think-tank, którego misją jest rozwój biznesu dzięki różnorodności.</p>
+                    <p>{{ site.data[page.lang].contact.lead }}</p>
                 </div>
                 <div class="col-md-12 p-0">
                     <div class="row">
@@ -230,8 +230,9 @@
         <div class="row">
             <div class="col-md-12 col-sm-12 text-center">
                 <ul class="footer-icons mb-4">
-                    <li><a href="javascript:void(0)" class="wow fadeInUp"><i class="ti ti-facebook"></i> </a> </li>
-                    <li><a href="javascript:void(0)" class="wow fadeInDown"><i class="ti ti-help-alt"></i> </a> </li>
+                    <li><a href="{{ site.fb_url }}" target="_blank" class="wow fadeInUp"><i class="ti ti-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="{{ site.twitter_url }}" target="_blank" class="wow fadeInUp"><i class="ti ti-twitter-alt" aria-hidden="true"></i></a></li>
+                    <li><a href="{{ site.linkedin_url }}" target="_blank" class="wow fadeInUp"><i class="ti ti-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
                 <p class="copyrights mt-2 mb-2">{{ site.data[page.lang].footer.text }}
                     <a target="_blank"

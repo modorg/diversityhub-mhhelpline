@@ -2,6 +2,36 @@
 ---
 
 /*-- Use For Custom Styling --*/
+.header-social a.lang {
+  background-position: center;
+  position: relative;
+  top: 8px;
+  filter: grayscale(60%);
+}
+
+.side-nav-social a.lang {
+    background-position: center;
+    position: relative;
+    top: 10px;
+    filter: grayscale(60%);
+    background-size: 210%;
+}
+.header-social a.lang.active, .side-nav-social a.lang.active{
+  border: solid 1px;
+}
+
+.header-social a.lang:hover, .side-nav-social a.lang:hover {
+  background-color: none;
+  filter: none;
+}
+
+.lang-pl {
+  background-image: url("{{ site.baseurl }}/images/pl_flag.png");
+}
+
+.lang-en {
+  background-image: url("{{ site.baseurl }}/images/en_flag.png");
+}
 
 .rs-addon-beforeafter-before {
   background-image: url("{{ site.baseurl }}/images/brush_swipe.png");
@@ -42,14 +72,17 @@
 
 #team .open-app-row .btn-setting {
   position: relative;
-  top: 10px;
+  top: 4px;
 }
 
-@media (min-width: 768px) {
-  #team .open-app-row .btn-setting {
-    position: relative;
-    left: 150px;
-  }
+.modal-body .second-column p {
+  text-align: justify;
+}
+
+#team .open-app-row.small-arrow-bg {
+  background-size: 85px;
+  background-position-y: 50px;
+  background-position-x: 20%;
 }
 
 #about .main-title h2, #contact h2 {
