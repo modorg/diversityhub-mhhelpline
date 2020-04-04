@@ -8,11 +8,19 @@
   top: 8px;
   filter: grayscale(60%);
 }
-.header-social a.lang.active {
+
+.side-nav-social a.lang {
+    background-position: center;
+    position: relative;
+    top: 10px;
+    filter: grayscale(60%);
+    background-size: 210%;
+}
+.header-social a.lang.active, .side-nav-social a.lang.active{
   border: solid 1px;
 }
 
-.header-social a.lang:hover {
+.header-social a.lang:hover, .side-nav-social a.lang:hover {
   background-color: none;
   filter: none;
 }
