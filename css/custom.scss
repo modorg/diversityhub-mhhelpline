@@ -1,6 +1,13 @@
 ---
 ---
 
+@media (max-width: 992px) {
+  nav.navbar.fixed-menu .container {
+    position: relative;
+    bottom: 8px;
+  }
+}
+
 /*-- Use For Custom Styling --*/
 .header-social a.lang {
   background-position: center;
