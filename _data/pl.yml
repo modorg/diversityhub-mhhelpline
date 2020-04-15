@@ -6,24 +6,31 @@ menu:
 
 open_app: Otwórz aplikację
 about:
-  not_virtual_yet: We are not virtual yet offer virtual care
+  not_virtual_yet: Udzielamy wirtualnej pomocy, choć nie jesteśmy wirtualni
   support_line: Linia wsparcia i konsultacje psychologiczne
-  mhhelpline_provides: MHHelpline zapewnia bezpieczne i profesjonalne miejsce wsparcia psychologicznego w przestrzeni wirtualnej. Linia umożliwia spotkanie pracowników organizacji ze specjalistami zdrowia psychicznego - psychologami, psychoterapeutami, interwentami, lekarzami - w celu pomocy w rozwiązaniu sytuacji kryzysowych, od codziennych niedogodności do złożonych globalnych tragedii.
+  mhhelpline_provides: Zapewniamy bezpieczne i profesjonalne miejsce wsparcia psychologicznego w przestrzeni wirtualnej poprzez dedykowaną do tego, przyjazną technologię (aplikację).
   columns:
-    - title: Zdrowe
-      content: Zespół certyfikowanych specjalistów mental health do wyboru, biorących osobistą odpowiedzialność za proces wsparcia
-      effect: fadeInLeft
-      icon: ti-heart
+    - title: Dopasowane
+      content: Konsultacje są dostosowane do charakteru wnoszonej sprawy. To pracownik wybiera specjalistę a my zapewniamy poufność i dyskrecję.
+      effect: fadeInRight
+      icon: ti-check-box
     - title: Bezpieczne
       content: Dedykowana, certyfikowana najwyższymi standardami bezpieczeństwa sieciowego technologia umożliwia profesjonalną pomoc psychologiczną
       effect: fadeInUp
       icon: ti-ruler-pencil
       icon: ti-shield
-    - title: Dopasowane
-      content: Konsultacje są dostosowane do charakteru wnoszonej sprawy. To pracownik wybiera specjalistę a my zapewniamy poufność i dyskrecję.
-      effect: fadeInRight
-      icon: ti-check-box
+    - title: Zdrowe
+      content: Zespół certyfikowanych specjalistów mental health do wyboru, biorących osobistą odpowiedzialność za proces wsparcia
+      effect: fadeInLeft
+      icon: ti-heart
 
+how_it_works: Jak to działa?
+steps:
+  one: Tworzysz indywidualne, bezpieczne konto
+  two: Logujesz się do aplikacji
+  three: Wybierasz specjalistę, czas i kanał wsparcia
+  four: Płacisz voucherem zapewnionym przez Twojego pracodawcę
+  five: Otrzymujesz pomoc jakiej potrzebujesz
 team:
   lead: Troszczymy się o stabilność i wiarygodność
   title: Zarząd
@@ -54,7 +61,7 @@ team:
         modal: .modal-jan
         modal_content:
           description:
-            - Psycholog i certyfikowany coach. Od 15 lat zajmuję się prowadzeniem projektów z zakresu wsparcia i rozwoju ludzi oraz organizacji. Prowadziłem doradztwo dla kilkuset zwalnianych osób w ramach programów outplacement. Pomagam pracownikom i firmom w sytuacji zmiany i kryzysów zarówno pod kątem potrzeb psychologicznych, jak i biznesowych.
+            - Jestem psychologiem, certyfikowanym coachem oraz wykładowcą. Od 16 lat zajmuję się prowadzeniem projektów z zakresu wsparcia i rozwoju ludzi oraz organizacji biznesowych. W swojej praktyce zawodowej szczególnie koncentruję się na zagadnieniach badania i rozwoju kompetencji ludzi, a także pomocy w kryzysach związanych z utratą pracy lub ponownym wejściu na rynek pracy. W obu obszarach pracuję zarówno z CEO, zarządami międzynarodowych korporacji, kadrą menedżerską, jak i specjalistami. Prowadziłem doradztwo dla kilkuset zwalnianych osób w ramach programów outplacement. Pomagam pracownikom i firmom zarówno pod kątem potrzeb psychologicznych, jak i menedżerskich. Obecnie jestem w trakcie 4,5-letniego kursu terapeutycznego, akredytowanego przez Polskie Towarzystwo Psychiatryczne.
       - name: Joanna Suchowska Oruba
         role: psycholog, interwent
         image: person_joanna.jpg
@@ -120,6 +127,7 @@ team:
       modal: .modal-piotr
 
 contact:
+  header: Kontakt
   lead: Diversity Hub to think-tank, którego misją jest rozwój biznesu dzięki różnorodności.
 
 

@@ -105,6 +105,57 @@
 </section>
 <!-- About ends -->
 
+<!-- How it works start -->
+<section class="half-section p-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center mb-4 wow fadeIn" data-wow-delay="300ms">
+                    <h3 class="h3">{{ site.data[page.lang].how_it_works }}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-gray">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 bg-yellow center-block p-5 equalheight">
+                <div class="equalheight">
+                    <h4 class="color-black font-weight-500 text-capitalize">
+                        1. {{ site.data[page.lang].steps.one }}
+                    </h4>
+                    <h4 class="color-black font-weight-500 text-capitalize">
+                        2. {{ site.data[page.lang].steps.two }}
+                    </h4>
+                </div>
+                <span class="arrow-button position-absolute">
+                    <i class="ti ti-control-play"></i>
+                </span>
+            </div>
+            <div class="col-md-4 col-sm-12 center-block p-5 equalheight">
+                <div class="equalheight">
+                    <h4 class="color-black font-weight-500 text-capitalize">
+                        3. {{ site.data[page.lang].steps.three }}
+                    </h4>
+                </div>
+                <span class="arrow-button position-absolute">
+                    <i class="ti ti-control-play"></i>
+                </span>
+            </div>
+            <div class="col-md-4 col-sm-12 bg-yellow center-block p-5 equalheight">
+                <div class="equalheight">
+                    <h4 class="color-black font-weight-500 text-capitalize">
+                        4. {{ site.data[page.lang].steps.four }}
+                    </h4>
+                    <h4 class="color-black font-weight-500 text-capitalize">
+                        5. {{ site.data[page.lang].steps.five }}
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- How it works ends -->
+
 <!-- Team start -->
 <section id="team">
     <div class="container">
@@ -187,9 +238,12 @@
             <div class="col-lg-8 offset-lg-2 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
                 <div class="main-title sm-text-center">
                     <div class="main-title m-0">
-                        <h5 class="text-left text-center text-capitalize"> Let's Get In Touch </h5>
+                        <h5 class="text-left text-center text-capitalize">{{ site.data[page.lang].contact.header }} </h5>
                     </div>
-                    <h2 class="text-center">Mental health center by Diversity Hub</h2>
+                    <h2 class="text-center">
+                        Mental health center by
+                        <a href="{{ site.data[page.lang].footer.link_url }}" target="_blank">Diversity Hub</a>
+                    </h2>
                     <p>{{ site.data[page.lang].contact.lead }}</p>
                 </div>
                 <div class="col-md-12 p-0">
@@ -214,7 +268,9 @@
                             </div>
                         </div>
                         <div class="col-6">
-                            <img src="{{ site.baseurl }}/images/DH logo.png" alt="DH logo.png">
+                            <a href="{{ site.data[page.lang].footer.link_url }}" target="_blank">
+                                <img src="{{ site.baseurl }}/images/DH logo.png" alt="DH logo.png">
+                            </a>
                         </div>
                     </div>
                 </div>
