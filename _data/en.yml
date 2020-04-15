@@ -8,22 +8,29 @@ open_app: Open the app
 about:
   not_virtual_yet: We are not virtual yet offer virtual care
   support_line: Support line and psychological consultation
-  mhhelpline_provides: MHHelpline provides a safe and professional place for psychological support in virtual space. The line allows the organization's employees to meet with mental health specialists - psychologists, psychotherapists, interviewees, doctors - to help solve crisis situations, from everyday inconveniences to complex global tragedies.
+  mhhelpline_provides: We provide a safe and professional place for psychological support in virtual space through a dedicated, user-friendly technology (application).
   columns:
-    - title: Healthy
-      content: A team of certified mental health professionals of your choice, taking personal responsibility for the support process
-      effect: fadeInLeft
-      icon: ti-heart
+    - title: Matching
+      content: The consultation shall be tailored to the nature of the case being brought. It is the employee who chooses the specialist and we ensure confidentiality and discretion.
+      effect: fadeInRight
+      icon: ti-check-box
     - title: Safe
       content: Dedicated, certified highest standards of network security technology enables professional psychological assistance
       effect: fadeInUp
       icon: ti-ruler-pencil
       icon: ti-shield
-    - title: Matching
-      content: The consultation shall be tailored to the nature of the case being brought. It is the employee who chooses the specialist and we ensure confidentiality and discretion.
-      effect: fadeInRight
-      icon: ti-check-box
+    - title: Healthy
+      content: A team of certified mental health professionals of your choice, taking personal responsibility for the support process
+      effect: fadeInLeft
+      icon: ti-heart
 
+how_it_works: How it works
+steps:
+  one: You create an individual, secure account
+  two: You log in to the application
+  three: You choose a specialist, time and support channel
+  four: You pay with a voucher provided by your employer
+  five: You get the help you need
 team:
   lead: We care about stability and credibility
   title: The Management Board
@@ -54,7 +61,7 @@ team:
         modal: .modal-jan
         modal_content:
           description:
-            - Psychologist and certified coach. For 15 years I have been running projects in the field of support and development of people and organizations. I have provided counseling for several hundred dismissed people in outplacement programs. I help employees and companies in situations of change and crises, both in terms of psychological and business needs.
+            - Psychologist, certified coach and lecturer. Since 2004 I have run projects, which support organizations and individuals in their development and handling with crisis. In my professional career I focus on aspects of examination and development of people’s competences and also helping them with crisis related to job loss or reintegration into the labour market. In the both areas I work with CEOs, high and mid-level management in multinational corporations and experts as well. I ran advisory for hundreds of dismissed employees during outplacement projects. I support employees and business in terms of their psychological and managerial needs. At present I attend 4,5 years long course of psychotherapy accredited by Polish Psychiatric Association.
       - name: Joanna Suchowska Oruba
         role: psychologist, interwent
         image: person_joanna.jpg
@@ -121,10 +128,11 @@ team:
       modal: .modal-piotr
 
 contact:
+  header: Let's Get In Touch
   lead: Diversity Hub is a think-tank whose mission is to develop business through diversity.
 
 
 footer:
   text: © 2020 Mental Health Helpline by
-  link: Diversityhub
+  link: Diversity Hub
   link_url: http://www.diversityhub.pl/
