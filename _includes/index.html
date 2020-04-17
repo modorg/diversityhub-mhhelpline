@@ -124,7 +124,7 @@
                         1. {{ site.data[page.lang].steps.one }}
                     </h4>
                     <h4 class="color-black font-weight-500 text-capitalize">
-                        2. {{ site.data[page.lang].steps.two }}
+                        {{ site.data[page.lang].steps.two }}
                     </h4>
                 </div>
                 <span class="arrow-button position-absolute">
@@ -134,7 +134,7 @@
             <div class="col-md-4 col-sm-12 center-block p-5 equalheight">
                 <div class="equalheight">
                     <h4 class="color-black font-weight-500 text-capitalize">
-                        3. {{ site.data[page.lang].steps.three }}
+                        2. {{ site.data[page.lang].steps.three }}
                     </h4>
                 </div>
                 <span class="arrow-button position-absolute">
@@ -144,10 +144,10 @@
             <div class="col-md-4 col-sm-12 bg-yellow center-block p-5 equalheight">
                 <div class="equalheight">
                     <h4 class="color-black font-weight-500 text-capitalize">
-                        4. {{ site.data[page.lang].steps.four }}
+                        3. {{ site.data[page.lang].steps.four }}
                     </h4>
                     <h4 class="color-black font-weight-500 text-capitalize">
-                        5. {{ site.data[page.lang].steps.five }}
+                        {{ site.data[page.lang].steps.five }}
                     </h4>
                 </div>
             </div>
@@ -170,7 +170,7 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <div class="owl-team owl-carousel wow fadeInUp">
+                <div class="owl-team carousel-enabled owl-carousel wow fadeInUp">
                     {% for person in site.data[page.lang].team.consultants.people %}
                         {% include person.html person=person.name role=person.role image=person.image modal=person.modal wow='wow' %}
                     {% endfor %}
@@ -203,7 +203,7 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <div class="owl-team owl-carousel wow fadeInUp">
+                <div class="owl-team carousel-disabled owl-carousel wow fadeInUp">
                     {% for person in site.data[page.lang].team.people %}
                         {% include person.html person=person.name role=person.role image=person.image modal=person.modal wow='wow' %}
                     {% endfor %}
@@ -259,7 +259,7 @@
                                 </div>
                                 <div class="icon-box">
                                     <i class="ti ti-email color-grey"></i>
-                                    <p> <a href="mailto:info@diversityhub.pl" class="color-grey">info@diversityhub.pl</a></p>
+                                    <p> <a href="mailto: mhhelpline@diversityhub.pl" class="color-grey">mhhelpline@diversityhub.pl</a></p>
                                 </div>
                                 <div class="icon-box">
                                     <i class="ti ti-location-pin color-grey"></i>
