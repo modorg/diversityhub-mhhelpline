@@ -340,7 +340,35 @@ jQuery(function ($) {
     }
 
     /* Our Team */
-    $(".owl-team").owlCarousel({
+    $(".owl-team.carousel-disabled").owlCarousel({
+        items: 3,
+        margin: 30,
+        dots: false,
+        nav: false,
+        loop: true,
+        autoplay: false,
+        touchDrag: false,
+        mouseDrag: false,
+        smartSpeed: 1000,
+        navSpeed: true,
+        autoplayHoverPause: true,
+        responsiveClass: true,
+        responsive: {
+            992: {
+                items: 4,
+            },
+            600: {
+                items: 2,
+            },
+            320: {
+                items: 1,
+            },
+        }
+    });
+
+
+    /* Our Team */
+    $(".owl-team.carousel-enabled").owlCarousel({
         items: 3,
         margin: 30,
         dots: false,
