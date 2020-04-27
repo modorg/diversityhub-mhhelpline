@@ -340,15 +340,19 @@ jQuery(function ($) {
     }
 
     /* Our Team */
+    var image_scroll = true
+    if (window.screen.width < 992)
+        image_scroll = true
+
     $(".owl-team.carousel-disabled").owlCarousel({
         items: 3,
         margin: 30,
         dots: false,
         nav: false,
         loop: true,
-        autoplay: false,
-        touchDrag: false,
-        mouseDrag: false,
+        autoplay: image_scroll,
+        touchDrag: image_scroll,
+        mouseDrag: image_scroll,
         smartSpeed: 1000,
         navSpeed: true,
         autoplayHoverPause: true,
