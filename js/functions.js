@@ -340,7 +340,7 @@ jQuery(function ($) {
     }
 
     /* Our Team */
-    var image_scroll = true
+    var image_scroll = false
     if (window.screen.width < 992)
         image_scroll = true
 
