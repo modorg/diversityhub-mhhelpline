@@ -95,6 +95,41 @@ https://color.adobe.com/pl/search?q= #2
   background-position-x: 20%;
 }
 
+#team {
+  .owl-stage-outer {
+    z-index: 10;
+  }
+
+  .owl-nav {
+    position: relative;
+    bottom: 300px;
+    font-size: 30px;
+
+    .owl-prev {
+      z-index: 1;
+      text-align: left;
+      i {
+        @media (min-width: 600px) {
+          position: relative;
+          right: 45px;
+        }
+      }
+    }
+
+    .owl-next {
+      z-index: 1;
+      text-align: right;
+      i {
+        position: relative;
+        bottom: 30px;
+        @media (min-width: 600px) {
+          left: 45px;
+        }
+      }
+    }
+  }
+}
+
 #about .main-title h2, #contact h2 {
   font-size: 2rem;
 }

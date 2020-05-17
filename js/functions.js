@@ -341,14 +341,21 @@ jQuery(function ($) {
 
     /* Our Team */
     var image_scroll = false
-    if (window.screen.width < 992)
+    var nav = false
+    var navText = ''
+
+    if (window.screen.width < 992) {
         image_scroll = true
+        nav = true
+        navText = ["<i class='ti ti-arrow-left'></i>", "<i class='ti ti-arrow-right'></i>"]
+    }
 
     $(".owl-team.carousel-disabled").owlCarousel({
         items: 3,
         margin: 30,
         dots: false,
-        nav: false,
+        nav: nav,
+        navText: navText,
         loop: true,
         autoplay: image_scroll,
         touchDrag: image_scroll,
@@ -376,7 +383,8 @@ jQuery(function ($) {
         items: 3,
         margin: 30,
         dots: false,
-        nav: false,
+        nav: true,
+        navText: ["<i class='ti ti-arrow-left'></i>", "<i class='ti ti-arrow-right'></i>"],
         loop:true,
         autoplay: true,
         smartSpeed:1000,
