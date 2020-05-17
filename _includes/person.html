@@ -1,7 +1,7 @@
 <div class="item grey-shade text-center">
   <div class="team-data-img fadeIn{% if include.wow %} {{ include.wow | append: ' ' }} {% endif %}" data-wow-delay="350ms">
     <div class="team-img" data-toggle="modal" data-target="{{ include.modal }}">
-      <img src="{{ site.baseurl }}/images/{{ include.image }}" alt="team" class="img-responsive pointer" data-no-retina>
+      <img src="{{ site.baseurl }}/images/{{ include.image }}" alt="team" loading="lazy" class="img-responsive pointer" data-no-retina>
     </div>
     <div>
       <h4 class="color-black font-weight-normal mt-4 text-capitalize pointer" data-toggle="modal"
