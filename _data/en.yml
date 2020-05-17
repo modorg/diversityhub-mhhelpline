@@ -42,13 +42,15 @@ team:
     content: We believe that psychology can make a difference in life. Our team is based on competence and honesty. We represent different streams of help.
     people:
       - name: Ania Czereszewska
+        email: anna@mhhelpline.com
         role: psychologist, psychotherapist
         image: person_ania_cz.jpg
         modal: .modal-ania_cz
         modal_content:
           description:
-            - I'm a psychologist, a therapist working in the system and proximity parenting. Since 2004 I have been supporting parents of school children. During the consultations I pay attention to the family's resources, possible solutions, recognizing that it is the parents who make the decision to choose the option, what they consider supporting.
+            - I'm a psychologist, a therapist working in the system and attachment parenting. Since 2004 I have been supporting parents of school children. During the consultations I pay attention to the family's resources, possible solutions, recognizing that it is the parents who make the decision to choose the option, what they consider supporting.
       - name: Anna Kotulak
+        email: anna.kotulak@mhhelpline.com
         role: psychologist, psychotherapist
         image: person_anna_k.jpg
         modal: .modal-anna_k
@@ -56,6 +58,7 @@ team:
           description:
             - I am a psychologist, graduate of Jagiellonian University, and psychotherapist in training in Psychoanalytic Therapy Course attested by Polish Psychiatric Association. I am conducting psychodynamic therapy and support for adults facing mood disorders, anxiety disorders as well as those who experience developmental crises in the face of difficulties in various areas of their lives.
       - name: Jan Kłusak
+        email: jan.klusak@mhhelpline.com
         role: psychologist, coach
         image: person_jan.jpg
         modal: .modal-jan
@@ -63,6 +66,7 @@ team:
           description:
             - Psychologist, certified coach and lecturer. Since 2004 I have run projects, which support organizations and individuals in their development and handling with crisis. In my professional career I focus on aspects of examination and development of people’s competences and also helping them with crisis related to job loss or reintegration into the labour market. In the both areas I work with CEOs, high and mid-level management in multinational corporations and experts as well. I ran advisory for hundreds of dismissed employees during outplacement projects. I support employees and business in terms of their psychological and managerial needs. At present I attend 4,5 years long course of psychotherapy accredited by Polish Psychiatric Association.
       - name: Joanna Suchowska Oruba
+        email: joanna@mhhelpline.com
         role: psychologist, interwent
         image: person_joanna.jpg
         modal: .modal-joanna
@@ -72,6 +76,7 @@ team:
             - I base my work on a systemic approach (taking into account the client's environment and broadly understood relationships), as well as non-violent agreement and proximity parenthood.
             - I'm a wife and a mother of three.
       - name: Karolina Ciesielka
+        email: karolina.ciesielka@mhhelpline.com
         role: psychologist, psychotherapist
         image: person_karolina.jpg
         modal: .modal-karolina
@@ -80,6 +85,7 @@ team:
             - I am a psychologist and psychotherapist in the course of comprehensive in cognitive-behavioural approach, preparing to obtain a psychotherapist certificate. I graduated from Applied Psychology at Jagiellonian University with the speciality in neuropsychology, I am a Member of a Polish Society of Cognitive-Behavioral Psychotherapy.
             - I am mostly interested in working with affective disorders, anxiety disorders, obsessive-compulsive disorder, emotional regulation and self-esteem in a cognitive-behavioral approach. I work either with adults and youth. My therapeutic work is regularly monitored by certified supervisors. I constantly improve my professional qualifications by participating in various training in the field of psychotherapy.
       - name: Kasia Bryczek
+        email: katarzyna.bryczek@mhhelpline.com
         role: psychologist, psychotherapist
         image: person_kasia.jpg
         modal: .modal-kasia
@@ -87,6 +93,7 @@ team:
           description:
             - I am a psychologist and psychotherapist, currently under training at the School of Cognitive- Behavioural Psychotherapy. I am a member of the Polish Association for Cognitive and Behavioural Therapy. I work with adults who struggle with anxiety, emotional difficulties, relationship issues or stress and trauma-related disorders.
       - name: Szymon Czapliński
+        email: szymon.czaplinski@mhhelpline.com
         role: psychologist, psychotherapist, coach
         image: person_szymon.jpg
         modal: .modal-szymon
@@ -98,6 +105,7 @@ team:
 
   people:
     - name: Tadeusz Reimus
+      email: tadeusz.reimus@mhhelpline.com
       role: Helpline Director
       image: person_tadek.jpg
       modal: .modal-tadek
@@ -108,6 +116,7 @@ team:
           - Graduate of philosophy and psychology at the Jagiellonian University, scholarship holder at the University of Tilburg, the Netherlands;
           - He has eighteen years of experience in working with organisations; knowledge and skills in the organisation and implementation of interventions, aid programmes, training policies.
     - name: Tomasz Dąbrowski
+      email: tomasz.dabrowski@mhhelpline.com
       role: V-ce President
       image: person_tomek.jpg
       modal: .modal-tomek
@@ -116,6 +125,7 @@ team:
           - An expert in Diversity & Inclusion, carrying out implementations for the largest companies in Poland. He introduced the subject "Diversity Management" to the study program at the Jagiellonian University.
           - Co-founder of research methodologies (ESA - employee satisfaction, AOC - organizational culture, Diversity Audit). Expert in international research projects and innovation development projects in the area of people management.
     - name: Małgorzata Wypych
+      email: malgorzata.wypych@mhhelpline.com
       role: MH Director
       image: person_gosia.jpg
       modal: .modal-gosia
@@ -123,6 +133,7 @@ team:
         description:
           - Psychologist, psychotherapist. One of the few people in Poland who deals with the phenomenon of rumours. She investigates factors that make it difficult to regulate emotions at work.
     - name: Piotr Stajura
+      email: piotr.stajura@mhhelpline.com
       role: IT Director
       image: person_piotr.jpg
       modal: .modal-piotr

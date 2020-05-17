@@ -6,7 +6,7 @@ menu:
 
 open_app: Otwórz aplikację
 about:
-  not_virtual_yet: Udzielamy wirtualnej pomocy, choć nie jesteśmy wirtualni
+  not_virtual_yet: Udzielamy wirtualnej pomocy, jednak nie jesteśmy wirtualni
   support_line: Linia wsparcia i konsultacje psychologiczne
   mhhelpline_provides: Zapewniamy bezpieczne i profesjonalne miejsce wsparcia psychologicznego w przestrzeni wirtualnej poprzez dedykowaną do tego, przyjazną technologię (aplikację).
   columns:
@@ -42,6 +42,7 @@ team:
     content: Wierzymy, że psychologia może dokonać znaczących zmian w życiu. Nasz zespół opiera się na kompetencji i uczciwości. Reprezentujemy różne nurty pomocy.
     people:
       - name: Ania Czereszewska
+        email: anna@mhhelpline.com
         role: psycholog, psychoterapeuta
         image: person_ania_cz.jpg
         modal: .modal-ania_cz
@@ -49,6 +50,7 @@ team:
           description:
             - Jestem psychologiem, terapeutą pracującym w nurcie systemowym i rodzicielstwa bliskości. Od 2004 r wspieram rodziców dzieci w wieku szkolnym. W czasie konsultacji zwracam uwagę na zasoby rodziny, możliwe sposoby rozwiązań, uznając, że to rodzice podejmują decyzję o wyborze opcji, tego, co uważają za wspierające.
       - name: Anna Kotulak
+        email: anna.kotulak@mhhelpline.com
         role: psycholog, psychoterapeuta
         image: person_anna_k.jpg
         modal: .modal-anna_k
@@ -56,6 +58,7 @@ team:
           description:
             - Jestem psychologiem, absolwentką Psychologii Stosowanej UJ oraz psychoterapeutką w trakcie Kursu Psychoterapii Psychoanalitycznej atestowanego przez Polskie Towarzystwo Psychiatryczne. Zajmuję się psychodynamiczną terapią indywidualną i wsparciem osób dorosłych w obszarze zaburzeń nastroju, zaburzeń lękowych jak również tych, którzy w obliczu trudności w różnych sferach swojego życia doświadczają kryzysów rozwojowych.
       - name: Jan Kłusak
+        email: jan.klusak@mhhelpline.com
         role: psycholog, coach
         image: person_jan.jpg
         modal: .modal-jan
@@ -63,6 +66,7 @@ team:
           description:
             - Jestem psychologiem, certyfikowanym coachem oraz wykładowcą. Od 16 lat zajmuję się prowadzeniem projektów z zakresu wsparcia i rozwoju ludzi oraz organizacji biznesowych. W swojej praktyce zawodowej szczególnie koncentruję się na zagadnieniach badania i rozwoju kompetencji ludzi, a także pomocy w kryzysach związanych z utratą pracy lub ponownym wejściu na rynek pracy. W obu obszarach pracuję zarówno z CEO, zarządami międzynarodowych korporacji, kadrą menedżerską, jak i specjalistami. Prowadziłem doradztwo dla kilkuset zwalnianych osób w ramach programów outplacement. Pomagam pracownikom i firmom zarówno pod kątem potrzeb psychologicznych, jak i menedżerskich. Obecnie jestem w trakcie 4,5-letniego kursu terapeutycznego, akredytowanego przez Polskie Towarzystwo Psychiatryczne.
       - name: Joanna Suchowska Oruba
+        email: joanna@mhhelpline.com
         role: psycholog, interwent
         image: person_joanna.jpg
         modal: .modal-joanna
@@ -72,6 +76,7 @@ team:
             - Swoją pracę opieram na podejściu systemowym, (biorąc pod uwagę otoczenie klienta i szeroko rozumiane relacje), a także porozumieniu bez przemocy i rodzicielstwie bliskości.
             - Jestem żoną i mamą trójki dzieci.
       - name: Karolina Ciesielka
+        email: karolina.ciesielka@mhhelpline.com
         role: psycholog, psychoterapeuta
         image: person_karolina.jpg
         modal: .modal-karolina
@@ -79,6 +84,7 @@ team:
           description:
             - Jestem psychologiem oraz psychoterapeutą w trakcie całościowego, 4-letniego szkolenia przygotowującego do uzyskania certyfikatu terapeuty poznawczo-behawioralnego. Ukończyłam studia Psychologii Stosowanej na Uniwersytecie Jagiellońskim, jestem członkiem Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej. Moje zainteresowania kliniczne dotyczą w szczególności zaburzeń afektywnych, zaburzeń lękowych, regulacji emocjonalnej oraz rozwijania poczucia własnej wartości. Pracuję zarówno z osobami dorosłymi jak i z młodzieżą w ujęciu poznawczo-behawioralnym. Swoją pracę poddaję regularnej superwizji, stale podnoszę swoje kwalifikacje oraz aktualizuję wiedzę o najnowsze doniesienia naukowe.
       - name: Kasia Bryczek
+        email: katarzyna.bryczek@mhhelpline.com
         role: psycholog, psychoterapeuta
         image: person_kasia.jpg
         modal: .modal-kasia
@@ -86,6 +92,7 @@ team:
           description:
             - Jestem psycholożką i psychoterapeutką w trakcie czteroletniej Szkoły Psychoterapii Poznawczo- Behawioralnej. Należę do Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej. Pracuję indywidualnie z osobami dorosłymi, które zmagają się z nadmiernym niepokojem i  lękiem, doświadczają problemów emocjonalnych, zaburzeń związanych ze stresem i traumą czy trudności w relacjach z innymi.
       - name: Szymon Czapliński
+        email: szymon.czaplinski@mhhelpline.com
         role: psycholog, psychoterapeuta, coach
         image: person_szymon.jpg
         modal: .modal-szymon
@@ -97,6 +104,7 @@ team:
 
   people:
     - name: Tadeusz Reimus
+      email: tadeusz.reimus@mhhelpline.com
       role: Helpline Director
       image: person_tadek.jpg
       modal: .modal-tadek
@@ -107,6 +115,7 @@ team:
           - Absolwent filozofii i psychologii Uniwersytetu Jagiellońskiego, stypendysta Uniwersytetu w Tilburgu, Holandia;
           - Ma za sobą osiemnastoletnie doświadczenie w pracy z organizacjami; wiedzę i umiejętności z zakresu organizacji i wdrażania interwencji, programów pomocowych, polityk szkoleniowych.
     - name: Tomasz Dąbrowski
+      email: tomasz.dabrowski@mhhelpline.com
       role: V-ce President
       image: person_tomek.jpg
       modal: .modal-tomek
@@ -115,6 +124,7 @@ team:
           - Ekspert Diversity & Inclusion, realizujący wdrożenia dla największych firm w Polsce. Wprowadził przedmiot „Zarządzanie różnorodnością” do programu studiów na Uniwersytecie Jagiellońskim.
           - Współtwórca metodyk badawczych (ESA – satysfakcja pracowników, AOC – kultura organizacyjna, Diversity Audit). Ekspert w międzynarodowych projektach badawczych oraz projektach rozwoju innowacji w obszarze zarządzania ludźmi.
     - name: Małgorzata Wypych
+      email: malgorzata.wypych@mhhelpline.com
       role: MH Director
       image: person_gosia.jpg
       modal: .modal-gosia
@@ -122,6 +132,7 @@ team:
         description:
           - Psycholog, psychoterapeuta. Jedna z niewielu osób w Polsce zajmująca się zjawiskiem plotki. Bada czynniki utrudniające regulację emocji w pracy.
     - name: Piotr Stajura
+      email: piotr.stajura@mhhelpline.com
       role: IT Director
       image: person_piotr.jpg
       modal: .modal-piotr
