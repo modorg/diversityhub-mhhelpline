@@ -106,7 +106,7 @@ team:
   people:
     - name: Tadeusz Reimus
       email: tadeusz.reimus@mhhelpline.com
-      role: Helpline Director
+      role: CEO
       image: person_tadek.jpg
       modal: .modal-tadek
       modal_content:
@@ -117,7 +117,7 @@ team:
           - He has eighteen years of experience in working with organisations; knowledge and skills in the organisation and implementation of interventions, aid programmes, training policies.
     - name: Tomasz Dąbrowski
       email: tomasz.dabrowski@mhhelpline.com
-      role: V-ce President
+      role: Legal Director
       image: person_tomek.jpg
       modal: .modal-tomek
       modal_content:
@@ -126,7 +126,7 @@ team:
           - Co-founder of research methodologies (ESA - employee satisfaction, AOC - organizational culture, Diversity Audit). Expert in international research projects and innovation development projects in the area of people management.
     - name: Małgorzata Wypych
       email: malgorzata.wypych@mhhelpline.com
-      role: MH Director
+      role: Head Supervisor
       image: person_gosia.jpg
       modal: .modal-gosia
       modal_content:
@@ -134,7 +134,7 @@ team:
           - Psychologist, psychotherapist. One of the few people in Poland who deals with the phenomenon of rumours. She investigates factors that make it difficult to regulate emotions at work.
     - name: Piotr Stajura
       email: piotr.stajura@mhhelpline.com
-      role: IT Director
+      role: IT and Service Director
       image: person_piotr.jpg
       modal: .modal-piotr
 
@@ -147,3 +147,4 @@ footer:
   text: © 2020 Mental Health Helpline by
   link: Diversity Hub
   link_url: http://www.diversityhub.pl/
+  logo_text: MHHL supports organizations in building a culture of mental health.

@@ -105,7 +105,7 @@ team:
   people:
     - name: Tadeusz Reimus
       email: tadeusz.reimus@mhhelpline.com
-      role: Helpline Director
+      role: CEO
       image: person_tadek.jpg
       modal: .modal-tadek
       modal_content:
@@ -116,7 +116,7 @@ team:
           - Ma za sobą osiemnastoletnie doświadczenie w pracy z organizacjami; wiedzę i umiejętności z zakresu organizacji i wdrażania interwencji, programów pomocowych, polityk szkoleniowych.
     - name: Tomasz Dąbrowski
       email: tomasz.dabrowski@mhhelpline.com
-      role: V-ce President
+      role: Legal Director
       image: person_tomek.jpg
       modal: .modal-tomek
       modal_content:
@@ -125,7 +125,7 @@ team:
           - Współtwórca metodyk badawczych (ESA – satysfakcja pracowników, AOC – kultura organizacyjna, Diversity Audit). Ekspert w międzynarodowych projektach badawczych oraz projektach rozwoju innowacji w obszarze zarządzania ludźmi.
     - name: Małgorzata Wypych
       email: malgorzata.wypych@mhhelpline.com
-      role: MH Director
+      role: Head Supervisor
       image: person_gosia.jpg
       modal: .modal-gosia
       modal_content:
@@ -133,7 +133,7 @@ team:
           - Psycholog, psychoterapeuta. Jedna z niewielu osób w Polsce zajmująca się zjawiskiem plotki. Bada czynniki utrudniające regulację emocji w pracy.
     - name: Piotr Stajura
       email: piotr.stajura@mhhelpline.com
-      role: IT Director
+      role: IT and Service Director
       image: person_piotr.jpg
       modal: .modal-piotr
 
@@ -146,3 +146,4 @@ footer:
   text: © 2020 Mental Health Helpline by
   link: Diversity Hub
   link_url: http://www.diversityhub.pl/
+  logo_text: MHHL to wsparcie organizacji w budowaniu kultury zdrowia psychicznego.
