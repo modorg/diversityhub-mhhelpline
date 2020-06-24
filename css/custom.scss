@@ -63,9 +63,11 @@ https://color.adobe.com/pl/search?q= #2
 }
 
 .navbar, .small-arrow-bg {
-  background-image: url('{{ site.baseurl }}/images/small_arrow.png');
-  background-repeat: no-repeat;
-  background-size: 100px;
+  @media (min-width: 930px) {
+    background-image: url('{{ site.baseurl }}/images/small_arrow.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+  }
 }
 
 .pointer {
