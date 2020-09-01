@@ -101,6 +101,16 @@ team:
           description:
             - I am a psychologist with experience of being a coach and coach in business organizations. As a psychotherapist I work with adults mainly in the system-psychodynamic perspective.
             - We usually work with clients on their anxiety and reduced moods, often with depression. As a psychologist and therapist, the most important thing for me is to really engage with the client, pay full attention to them and use all my knowledge and skills.
+      - name: Kamil Koryciorz
+        email: kamil.koryciorz@gmail.com
+        role: coach
+        image: person_kamil.jpg
+        modal: .modal-kamil
+        modal_content:
+          description:
+            - I'm an IT engineer, project manager, trainer and coach. As the latter I support people and organizations both in business and NGO space.
+            - As a project manager I work for the biggest global IT company in the pharma industry. I lead teams and implement IT systems around the globe. That gives me a wonderful opportunity of working with so many people across multiple cultures and languages. I strongly believe that the true effectiveness comes only with the "people first" approach, being all about fulfillment of the organization's each and every member.
+            - I like the feeling of seeing people smile.
 
 
   people:
