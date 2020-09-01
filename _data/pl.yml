@@ -100,7 +100,16 @@ team:
           description:
             - Jestem psychologiem z doświadczeniem bycia coachem i trenerem w organizacjach biznesowych. Jako psychoterapeuta pracuję z osobami dorosłymi przede wszystkim w ujęciu systemowo-psychodynamicznym.
             - Z klientami najczęściej pracujemy nad ich stanami lękowymi i obniżonym nastrojem, często z depresją. Najważniejsze dla mnie, jako psychologa i terapeuty, to rzeczywiste zaangażowanie w pracę z klientem, poświęcanie mu pełni uwagi i wykorzystywanie całej swojej wiedzy i umiejętności.
-
+      - name: Kamil Koryciorz
+        email: kamil.koryciorz@gmail.com
+        role: coach
+        image: person_kamil.jpg
+        modal: .modal-kamil
+        modal_content:
+          description:
+            - Jestem inżynierem, project managerem IT, coachem i trenerem. W pracy trenerskiej wspieram ludzi i organizacje zarówno biznesowe, jak i NGO.
+            - Na co dzień, jako project manager w największej globalnej firmie dostarczającej rozwiązania IT dla branży pharma, prowadzę kilkudziesięcioosobowe zespoły, wdrażam projekty informatyczne na całym świecie. Cenię sobie pracę na styku różnych języków i kultur. Wierzę, że prawdziwa efektywność bierze się z podejścia "people first" - zaczyna się i kończy na realizacji osobistych celów członków organizacji.
+            - Lubię uczucie, gdy widzę uśmiechniętych ludzi.
 
   people:
     - name: Tadeusz Reimus
