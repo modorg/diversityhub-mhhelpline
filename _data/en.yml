@@ -94,7 +94,7 @@ team:
             - I am a psychologist and psychotherapist, currently under training at the School of Cognitive- Behavioural Psychotherapy. I am a member of the Polish Association for Cognitive and Behavioural Therapy. I work with adults who struggle with anxiety, emotional difficulties, relationship issues or stress and trauma-related disorders.
       - name: Szymon Czapliński
         email: szymon.czaplinski@mhhelpline.com
-        role: psychologist, psychotherapist, coach
+        role: psychologist, psychotherapist
         image: person_szymon.jpg
         modal: .modal-szymon
         modal_content:
@@ -111,7 +111,32 @@ team:
             - I'm an IT engineer, project manager, trainer and coach. As the latter I support people and organizations both in business and NGO space.
             - As a project manager I work for the biggest global IT company in the pharma industry. I lead teams and implement IT systems around the globe. That gives me a wonderful opportunity of working with so many people across multiple cultures and languages. I strongly believe that the true effectiveness comes only with the "people first" approach, being all about fulfillment of the organization's each and every member.
             - I like the feeling of seeing people smile.
-
+      - name: Monika Kampioni-Zawadka
+        email: kampioni.zawadka@gmail.com
+        role: psychologist, psychotherapist, coach
+        image: person_monika_kz.jpg
+        modal: .modal-monika
+        modal_content:
+          description:
+            - I am a psychologist, a coach graduated from the SWPS University. I’am currently working on certification in systemic psychotherapy at the WTTS in Poznań. I have experience working with adults, children and teenagers. For many years I have carried out projects in human resource management in organizations. I support adults at risk of stress, crisis, with low self-esteem, with psychosomatic problems, burned out, after mobbing experiences, experiencing perinatal or hospitalization stress, and all those who would like to take up professional or personal development or make life changes.
+      - name: Marta Blaut
+        email: marta.blaut@diversityhub.pl
+        role: psychologist, psychotherapist, coach
+        image: person_marta.jpg
+        modal: .modal-marta
+        modal_content:
+          description:
+            - Psychologist, psychotherapist, coach. Experienced not only in psychotherapy and coaching but also in the HR field and project management. Lecturer in Cracow Bar Association. Derives most satisfaction from cooperation with people. Passionate about outdoor sports.
+      - name: Justyna Bąba
+        email: "-"
+        role: Psychologist, Coach, Business Mentor
+        image: person_justyna.png
+        modal: .modal-justyna
+        modal_content:
+          description:
+            - Previously, I worked for years as a manager and strategy expert in business organizations, including corporations. In the meantime, I was also running my own business and advising start-ups. Consequently, I know what it’s like to be an employee of a modern organization. I also know what it's like to experience difficult emotions at work or even burnout.
+            - Currently, after graduating from clinical and health psychology, I conduct research on the relationship between the characteristics of leaders and the well-being or mental health of employees, which will become part of my doctorate at SWPS University. At the same time, I am training for a psychotherapist. For the last 5 years I have been coaching and mentoring business employees in the areas of coping with change, difficult situations at work and stress, among others, as a mentor at the EY Business Leaders Foundation. I also run workshops on coping with stress and preventing burnout.
+            - I believe that every person, no matter in what position and status, has the right to get lost. The most important thing is to meet someone who does not judge and does not exalt himself, who instead is always respectful and curious about you. I was lucky with such people in difficult times, so I want to give it back to others.
 
   people:
     - name: Tadeusz Reimus
