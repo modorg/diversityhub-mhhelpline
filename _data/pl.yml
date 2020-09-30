@@ -93,7 +93,7 @@ team:
             - Jestem psycholożką i psychoterapeutką w trakcie czteroletniej Szkoły Psychoterapii Poznawczo- Behawioralnej. Należę do Polskiego Towarzystwa Terapii Poznawczej i Behawioralnej. Pracuję indywidualnie z osobami dorosłymi, które zmagają się z nadmiernym niepokojem i  lękiem, doświadczają problemów emocjonalnych, zaburzeń związanych ze stresem i traumą czy trudności w relacjach z innymi.
       - name: Szymon Czapliński
         email: szymon.czaplinski@mhhelpline.com
-        role: psycholog, psychoterapeuta, coach
+        role: psycholog, psychoterapeuta
         image: person_szymon.jpg
         modal: .modal-szymon
         modal_content:
@@ -110,6 +110,33 @@ team:
             - Jestem inżynierem, project managerem IT, coachem i trenerem. W pracy trenerskiej wspieram ludzi i organizacje zarówno biznesowe, jak i NGO.
             - Na co dzień, jako project manager w największej globalnej firmie dostarczającej rozwiązania IT dla branży pharma, prowadzę kilkudziesięcioosobowe zespoły, wdrażam projekty informatyczne na całym świecie. Cenię sobie pracę na styku różnych języków i kultur. Wierzę, że prawdziwa efektywność bierze się z podejścia "people first" - zaczyna się i kończy na realizacji osobistych celów członków organizacji.
             - Lubię uczucie, gdy widzę uśmiechniętych ludzi.
+      - name: Monika Kampioni-Zawadka
+        email: kampioni.zawadka@gmail.com
+        role: psycholog, coach, psychoterapeuta
+        image: person_monika_kz.jpg
+        modal: .modal-monika
+        modal_content:
+          description:
+            - Jestem psychologiem, coachem, absolwentką Uniwersytetu SWPS w trakcie kursu psychoterapeutycznego w nurcie systemowym w Wielkopolskim Towarzystwie Terapii Systemowej w Poznaniu, którego jestem członkiem. Mam za sobą doświadczenie w pracy z osobami dorosłymi oraz dziećmi i młodzieżą. Przez wiele lat realizowałam projekty z zakresu zarządzania zasobami ludzkimi w organizacjach różnej wielkości. Zajmuję się wsparciem osób dorosłych zagrożonych stresem, kryzysem życiowym lub zawodowym, o niskim poczuciu własnej wartości, z problemami psychosomatycznymi, wypalonych zawodowo, po doświadczeniach mobbingu, przeżywających stres okołoporodowy lub związany z hospitalizacją oraz wszystkich, którzy chcieliby zająć się rozwojem zawodowym, osobistym lub wprowadzaniem życiowych zmian.
+      - name: Marta Blaut
+        email: marta.blaut@diversityhub.pl
+        role: psycholog, coach, psychoterapeuta
+        image: person_marta.jpg
+        modal: .modal-marta
+        modal_content:
+          description:
+            - Psycholog, psychoterapeuta, trener. Posiada nie tylko doświadczenie kliniczne i treningowe, ale także biznesowe, z obszaru prowadzenia projektów oraz HR. Z pracy z ludźmi czerpie największą satysfakcję i ludzie są w centrum jej zainteresowania. Pasjonatka sportów outdoorowych.
+      - name: Justyna Bąba
+        email: "-"
+        role: psycholog, coach, psychoterapeuta
+        image: person_justyna.png
+        modal: .modal-justyna
+        modal_content:
+          description:
+            - W poprzedniej odsłonie mojego życia wiele lat pracowałam w firmach, w tym w korporacjach, jako menedżer i ekspert ds. strategii, prowadziłam też własny biznes i doradzałam start-upom. Wiem, jak to jest być pracownikiem współczesnej organizacji. Wiem też, jak to jest doznawać trudnych emocji w pracy, a nawet wypalenia.
+            - Skończyłam psychologię kliniczną i zdrowia na Uniwersytecie SWPS, gdzie obecnie pracuję i robię doktorat w oparciu o badania nad relacjami między cechami liderów a dobrostanem psychologicznym pracowników. Od 5 lat prowadzę coaching oraz mentoring, wspierając pracowników organizacji w sytuacjach zmiany, trudnych momentów w pracy oraz w radzeniu sobie ze stresem, m.in. w Fundacji Liderek Biznesu EY. Prowadzę też warsztaty z radzenia sobie ze stresem i profilaktyki wypalenia zawodowego. Obecnie jestem w trakcie szkoleń przygotowujących do roli terapeuty.
+            - Wierzę, że każdy człowiek, nie ważne na jakim stanowisku i o jakim statusie, ma prawo się pogubić. Najważniejsze, aby spotkać kogoś, kto nie osądza i nie wywyższa się, a w zamian szanuje i jest Ciebie ciekawy. Miałam szczęście do takich ludzi w trudnych chwilach, więc chcę to oddać innym.
+
 
   people:
     - name: Tadeusz Reimus
