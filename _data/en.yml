@@ -102,7 +102,7 @@ team:
             - I am a psychologist with experience of being a coach and coach in business organizations. As a psychotherapist I work with adults mainly in the system-psychodynamic perspective.
             - We usually work with clients on their anxiety and reduced moods, often with depression. As a psychologist and therapist, the most important thing for me is to really engage with the client, pay full attention to them and use all my knowledge and skills.
       - name: Kamil Koryciorz
-        email: kamil.koryciorz@gmail.com
+        email: kamil.koryciorz@mhhelpline.com
         role: coach
         image: person_kamil.jpg
         modal: .modal-kamil
@@ -112,7 +112,7 @@ team:
             - As a project manager I work for the biggest global IT company in the pharma industry. I lead teams and implement IT systems around the globe. That gives me a wonderful opportunity of working with so many people across multiple cultures and languages. I strongly believe that the true effectiveness comes only with the "people first" approach, being all about fulfillment of the organization's each and every member.
             - I like the feeling of seeing people smile.
       - name: Monika Kampioni-Zawadka
-        email: kampioni.zawadka@gmail.com
+        email: monika.kampioni.zawadka@mhhelpline.com
         role: psychologist, psychotherapist, coach
         image: person_monika_kz.jpg
         modal: .modal-monika
@@ -120,7 +120,7 @@ team:
           description:
             - I am a psychologist, a coach graduated from the SWPS University. I’am currently working on certification in systemic psychotherapy at the WTTS in Poznań. I have experience working with adults, children and teenagers. For many years I have carried out projects in human resource management in organizations. I support adults at risk of stress, crisis, with low self-esteem, with psychosomatic problems, burned out, after mobbing experiences, experiencing perinatal or hospitalization stress, and all those who would like to take up professional or personal development or make life changes.
       - name: Marta Blaut
-        email: marta.blaut@diversityhub.pl
+        email: marta.blaut@mhhelpline.com
         role: psychologist, psychotherapist, coach
         image: person_marta.jpg
         modal: .modal-marta
@@ -128,15 +128,23 @@ team:
           description:
             - Psychologist, psychotherapist, coach. Experienced not only in psychotherapy and coaching but also in the HR field and project management. Lecturer in Cracow Bar Association. Derives most satisfaction from cooperation with people. Passionate about outdoor sports.
       - name: Justyna Bąba
-        email: "-"
+        email: justyna.baba@mhhelpline.com
         role: Psychologist, Coach, Business Mentor
         image: person_justyna.png
         modal: .modal-justyna
         modal_content:
           description:
-            - Previously, I worked for years as a manager and strategy expert in business organizations, including corporations. In the meantime, I was also running my own business and advising start-ups. Consequently, I know what it’s like to be an employee of a modern organization. I also know what it's like to experience difficult emotions at work or even burnout.
-            - Currently, after graduating from clinical and health psychology, I conduct research on the relationship between the characteristics of leaders and the well-being or mental health of employees, which will become part of my doctorate at SWPS University. At the same time, I am training for a psychotherapist. For the last 5 years I have been coaching and mentoring business employees in the areas of coping with change, difficult situations at work and stress, among others, as a mentor at the EY Business Leaders Foundation. I also run workshops on coping with stress and preventing burnout.
-            - I believe that every person, no matter in what position and status, has the right to get lost. The most important thing is to meet someone who does not judge and does not exalt himself, who instead is always respectful and curious about you. I was lucky with such people in difficult times, so I want to give it back to others.
+            - I believe everyone has a right to get lost. I was lucky with people who gave me respect and support at my worst times. Now I want to give it back to others. Currently, after graduating from clinical and health psychology, I conduct research on the well-being or mental health of employees at SWPS University. At the same time, I am training for a psychotherapist. For the last 5 years I have been coaching and mentoring employees in the areas of coping with change, difficult situations or crisis at work, loss of motivation, stress and burnout, among others, at the EY Business Leaders Foundation. 
+      - name: Anna Siudut-Stajura
+        email: anna.siudut@mhhelpline.com
+        role: Psychologist, Coach, Gestalt psychotherapist
+        image: person_anna_ss.jpg
+        modal: .modal-anna_ss
+        modal_content:
+          description:
+            - "I am a psychologist, trainer, Gestalt psychotherapist, privately wife and mother of three children. I have been working with people in the area of development - individually and in groups - since 2004. My professional path leads from the experience of supporting people in organizations to individual support in internal change in a therapy office. I appreciate working with parents of young children, because it is in the period of early childhood that mental health begins."
+            - "In addition to the Gestalt approach, I draw on such trends as Mindfulness, Nonviolent Communication (NVC) and Self-Reg."
+            - "I try to carefully accompany my clients on journeys towards balance, life changes or important goals. I believe in the power of relationships with others to help build contact with ourselves: refresh our inner compass and regain access to our own resources."
 
   people:
     - name: Tadeusz Reimus

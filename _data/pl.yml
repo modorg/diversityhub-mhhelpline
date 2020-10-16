@@ -101,7 +101,7 @@ team:
             - Jestem psychologiem z doświadczeniem bycia coachem i trenerem w organizacjach biznesowych. Jako psychoterapeuta pracuję z osobami dorosłymi przede wszystkim w ujęciu systemowo-psychodynamicznym.
             - Z klientami najczęściej pracujemy nad ich stanami lękowymi i obniżonym nastrojem, często z depresją. Najważniejsze dla mnie, jako psychologa i terapeuty, to rzeczywiste zaangażowanie w pracę z klientem, poświęcanie mu pełni uwagi i wykorzystywanie całej swojej wiedzy i umiejętności.
       - name: Kamil Koryciorz
-        email: kamil.koryciorz@gmail.com
+        email: kamil.koryciorz@mhhelpline.com
         role: coach
         image: person_kamil.jpg
         modal: .modal-kamil
@@ -111,7 +111,7 @@ team:
             - Na co dzień, jako project manager w największej globalnej firmie dostarczającej rozwiązania IT dla branży pharma, prowadzę kilkudziesięcioosobowe zespoły, wdrażam projekty informatyczne na całym świecie. Cenię sobie pracę na styku różnych języków i kultur. Wierzę, że prawdziwa efektywność bierze się z podejścia "people first" - zaczyna się i kończy na realizacji osobistych celów członków organizacji.
             - Lubię uczucie, gdy widzę uśmiechniętych ludzi.
       - name: Monika Kampioni-Zawadka
-        email: kampioni.zawadka@gmail.com
+        email: monika.kampioni.zawadka@mhhelpline.com
         role: psycholog, coach, psychoterapeuta
         image: person_monika_kz.jpg
         modal: .modal-monika
@@ -119,7 +119,7 @@ team:
           description:
             - Jestem psychologiem, coachem, absolwentką Uniwersytetu SWPS w trakcie kursu psychoterapeutycznego w nurcie systemowym w Wielkopolskim Towarzystwie Terapii Systemowej w Poznaniu, którego jestem członkiem. Mam za sobą doświadczenie w pracy z osobami dorosłymi oraz dziećmi i młodzieżą. Przez wiele lat realizowałam projekty z zakresu zarządzania zasobami ludzkimi w organizacjach różnej wielkości. Zajmuję się wsparciem osób dorosłych zagrożonych stresem, kryzysem życiowym lub zawodowym, o niskim poczuciu własnej wartości, z problemami psychosomatycznymi, wypalonych zawodowo, po doświadczeniach mobbingu, przeżywających stres okołoporodowy lub związany z hospitalizacją oraz wszystkich, którzy chcieliby zająć się rozwojem zawodowym, osobistym lub wprowadzaniem życiowych zmian.
       - name: Marta Blaut
-        email: marta.blaut@diversityhub.pl
+        email: marta.blaut@mhhelpline.com
         role: psycholog, coach, psychoterapeuta
         image: person_marta.jpg
         modal: .modal-marta
@@ -127,16 +127,24 @@ team:
           description:
             - Psycholog, psychoterapeuta, trener. Posiada nie tylko doświadczenie kliniczne i treningowe, ale także biznesowe, z obszaru prowadzenia projektów oraz HR. Z pracy z ludźmi czerpie największą satysfakcję i ludzie są w centrum jej zainteresowania. Pasjonatka sportów outdoorowych.
       - name: Justyna Bąba
-        email: "-"
+        email: justyna.baba@mhhelpline.com
         role: psycholog, coach, psychoterapeuta
         image: person_justyna.png
         modal: .modal-justyna
         modal_content:
           description:
-            - W poprzedniej odsłonie mojego życia wiele lat pracowałam w firmach, w tym w korporacjach, jako menedżer i ekspert ds. strategii, prowadziłam też własny biznes i doradzałam start-upom. Wiem, jak to jest być pracownikiem współczesnej organizacji. Wiem też, jak to jest doznawać trudnych emocji w pracy, a nawet wypalenia.
-            - Skończyłam psychologię kliniczną i zdrowia na Uniwersytecie SWPS, gdzie obecnie pracuję i robię doktorat w oparciu o badania nad relacjami między cechami liderów a dobrostanem psychologicznym pracowników. Od 5 lat prowadzę coaching oraz mentoring, wspierając pracowników organizacji w sytuacjach zmiany, trudnych momentów w pracy oraz w radzeniu sobie ze stresem, m.in. w Fundacji Liderek Biznesu EY. Prowadzę też warsztaty z radzenia sobie ze stresem i profilaktyki wypalenia zawodowego. Obecnie jestem w trakcie szkoleń przygotowujących do roli terapeuty.
-            - Wierzę, że każdy człowiek, nie ważne na jakim stanowisku i o jakim statusie, ma prawo się pogubić. Najważniejsze, aby spotkać kogoś, kto nie osądza i nie wywyższa się, a w zamian szanuje i jest Ciebie ciekawy. Miałam szczęście do takich ludzi w trudnych chwilach, więc chcę to oddać innym.
-
+            - Wierzę, że każdy ma prawo pogubić się w trudnym czasie. W najgorszych chwilach mogłam liczyć na ludzi obdarzających szacunkiem i wsparciem. Staram się to oddać innym.
+            - Skończyłam psychologię kliniczną na Uniwersytecie SWPS, tam prowadzę badania nad dobrostanem i zdrowiem psychicznym pracowników organizacji. Od 5 lat prowadzę coaching, mentoring i warsztaty, m.in. w Fundacji Liderek Biznesu EY. Wcześniej przez wiele lat pracowałam w organizacjach biznesowych. Wspieram w zmianach życiowych, kryzysach w pracy, radzeniu sobie ze stresem i wypaleniem zawodowym, poszukiwaniu większej równowagi. Jestem w trakcie stażów i szkoleń w roli terapeuty.
+      - name: Anna Siudut-Stajura
+        email: anna.siudut@mhhelpline.com
+        role: psycholog, trener, psychoterapeuta Gestalt
+        image: person_anna_ss.jpg
+        modal: .modal-anna_ss
+        modal_content:
+          description:
+            - "Jestem psychologiem, trenerem, psychoterapeutą Gestalt, prywatnie żoną i mamą trójki dzieci. Pracuję z ludźmi w obszarze rozwoju - indywidualnie i grupowo - od 2004 roku. Moja ścieżka zawodowa prowadzi od doświadczeń wspierania ludzi w organizacjach aż po indywidualne wsparcie w zmianie wewnętrznej w gabinecie terapeutycznym. Cenię sobie pracę z rodzicami małych dzieci, gdyż właśnie w okresie wczesnego dzieciństwa zaczyna się zdrowie psychiczne."
+            - "Obok podejścia Gestalt, czerpię z takich nurtów jak uważność (Mindfulness), Porozumienie bez przemocy (NVC) oraz samoregulacji (Self-Reg)."
+            - "Staram się uważnie towarzyszyć moim Klientom w podróżach ku równowadze, życiowym zmianom czy ważnym celom. Wierzę w moc relacji z drugim człowiekiem, która pomaga budować kontakt z samym sobą: odświeżyć nasz wewnętrzny kompas i odzyskać dostęp do własnych zasobów."
 
   people:
     - name: Tadeusz Reimus
