@@ -1,4 +1,4 @@
-<div class="item grey-shade text-center">
+<div class="item grey-shade text-center {% if include.wow %} {{ 'col-md-3 col-sm-6' }} {% endif %}">
   <div class="team-data-img fadeIn{% if include.wow %} {{ include.wow | append: ' ' }} {% endif %}" data-wow-delay="350ms">
     <div class="team-img" data-toggle="modal" data-target="{{ include.modal }}">
       <img src="{{ site.baseurl }}/images/{{ include.image }}" alt="team" loading="lazy" class="img-responsive pointer" data-no-retina>

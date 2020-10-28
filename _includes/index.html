@@ -170,7 +170,7 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <div class="owl-team carousel-enabled owl-carousel wow fadeInUp">
+                <div class="wow fadeInUp row">
                     {% for person in site.data[page.lang].team.consultants.people %}
                         {% include person.html person=person.name role=person.role image=person.image modal=person.modal wow='wow' %}
                     {% endfor %}
