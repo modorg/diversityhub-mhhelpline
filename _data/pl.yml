@@ -145,6 +145,27 @@ team:
             - "Jestem psychologiem, trenerem, psychoterapeutą Gestalt, prywatnie żoną i mamą trójki dzieci. Pracuję z ludźmi w obszarze rozwoju - indywidualnie i grupowo - od 2004 roku. Moja ścieżka zawodowa prowadzi od doświadczeń wspierania ludzi w organizacjach aż po indywidualne wsparcie w zmianie wewnętrznej w gabinecie terapeutycznym. Cenię sobie pracę z rodzicami małych dzieci, gdyż właśnie w okresie wczesnego dzieciństwa zaczyna się zdrowie psychiczne."
             - "Obok podejścia Gestalt, czerpię z takich nurtów jak uważność (Mindfulness), Porozumienie bez przemocy (NVC) oraz samoregulacji (Self-Reg)."
             - "Staram się uważnie towarzyszyć moim Klientom w podróżach ku równowadze, życiowym zmianom czy ważnym celom. Wierzę w moc relacji z drugim człowiekiem, która pomaga budować kontakt z samym sobą: odświeżyć nasz wewnętrzny kompas i odzyskać dostęp do własnych zasobów."
+      - name: Agata Błaszkiewicz
+        email: agata.blaszkiewicz@mhhelpline.com
+        role: pedagog, trener
+        image: person_agata.jpg
+        modal: .modal-agata
+        modal_content:
+          description:
+            - Jestem pedagogiem z 30 letnim doświadczeniem zawodowym. Ukończyłam pedagogikę specjalną na Uniwersytecie Szczecińskim oraz liczne kursy z zakresu pedagogiki ogólnej i szkolnej, diagnozy i terapii pedagogicznej, oligofrenopedagogiki i surdopedagogiki.
+            - Od 30 lat pracuję w Ośrodku dla Dzieci Niesłyszących w Szczecinie. W ramach swojej pracy współpracuję z rodzicami, opiekunami prawnymi wychowanków jak i z nimi samymi na różnych etapach edukacyjnych, począwszy od przedszkola a skończywszy na branżowej szkole zawodowej. Towarzyszę również absolwentom w ich karierach zawodowych po skończeniu nauki w Ośrodku. Posługuję się językiem migowym. Znam bariery na jakie napotyka osoba niepełnosprawna w życiu codziennym. Współpracuję z instytucjami działającymi na rzecz osób niepełnosprawnych w celu ich niwelowania. Uczestniczę w realizacji licznych projektów skierowanych do osób niesłyszących na rynku pracy. Prowadzę kursy z zakresu komunikacji osób słyszących z osobami z uszkodzonym słuchem.
+            - Doświadczenie w pracy z osobą niepełnosprawną nauczyło mnie indywidualnego , pełnego troski spojrzenia na każdego człowieka z poszanowaniem jego inności i niepowtarzalności. Konsultacje rodzicielskie wspierające funkcjonowanie dzieci w systemie edukacji oraz wsparcie dla rodzin borykających się z niepełnosprawnością swoich bliskich to obszary w których mogę podzielić się z Państwem swoim doświadczeniem.
+      - name: Renata Jarosz
+        email: renata.jarosz@diversityhub.pl
+        role: psychoterapeuta
+        image: person_renata.jpg
+        modal: .modal-renata
+        modal_content:
+          description:
+            - Jestem psychoterapeutą. Pracuję w ujęciu psychoanalitycznym oraz systemowym. Ukończyłam całościowy kurs psychoterapii psychoanalitycznej organizowany przez Oddział Leczenia Zaburzeń Osobowości i Nerwic przy Szpitalu Babińskiego w Krakowie. Moja praca psychoterapeutyczna podlega od wielu lat regularnej superwizji psychoanalityka, superwizora Polskiego Towarzystwa Psychoterapii Psychoanalitycznej.
+            - Pracuję od 7 lat w ramach prywatnej praktyki psychoterapii psychoanalitycznej.
+            - W swojej praktyce pracuję z dorosłymi, dziećmi i młodzieżą, z osobami, które doświadczają dyskomfortu psychicznego. W tym zaburzenia osobowości, nastroju, depresyjne, lękowe, odżywiania, z objawami somatycznymi oraz związanymi z traumą i stresem.
+            - W pracy ze swoimi pacjentami staram się pomóc odzyskać równowagę między rzeczywistością, a życiem wewnętrznym. Moim głównym obszarem zainteresowań są teorie oparte na relacji z obiektem.
 
   people:
     - name: Tadeusz Reimus
