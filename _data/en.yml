@@ -145,6 +145,26 @@ team:
             - "I am a psychologist, trainer, Gestalt psychotherapist, privately wife and mother of three children. I have been working with people in the area of development - individually and in groups - since 2004. My professional path leads from the experience of supporting people in organizations to individual support in internal change in a therapy office. I appreciate working with parents of young children, because it is in the period of early childhood that mental health begins."
             - "In addition to the Gestalt approach, I draw on such trends as Mindfulness, Nonviolent Communication (NVC) and Self-Reg."
             - "I try to carefully accompany my clients on journeys towards balance, life changes or important goals. I believe in the power of relationships with others to help build contact with ourselves: refresh our inner compass and regain access to our own resources."
+      - name: Agata Błaszkiewicz
+        email: agata.blaszkiewicz@mhhelpline.com
+        role: pedagogue, coach
+        image: person_agata.jpg
+        modal: .modal-agata
+        modal_content:
+          description:
+            - I am a teacher with 30 years of professional experience. I graduated from special pedagogy at the University of Szczecin and numerous courses in general and school pedagogy, pedagogical diagnosis and therapy, oligophrenopedagogy and surdopedagogy.
+            - For 30 years I have been working at the Center for Deaf Children in Szczecin. As part of my work, I work with parents, legal guardians of the pupils as well as with themselves at various educational stages, ranging from kindergarten to the industry vocational school. I also accompany graduates in their careers after graduating from the Center. I use sign language. I know the barriers faced by a disabled person in everyday life. I work with institutions working for the benefit of disabled people in order to eliminate them. I participate in the implementation of numerous projects aimed at deaf people on the labor market. I run courses on communication between hearing people and hearing impaired people.
+            - Experience in working with a disabled person has taught me to look at each person individually, with care, respecting their otherness and uniqueness. Parental consultations supporting the functioning of children in the education system and support for families struggling with disabilities of their relatives are areas where I can share my experience with you.
+      - name: Renata Jarosz
+        email: renata.jarosz@diversityhub.pl
+        role: psychotherapist
+        image: person_renata.jpg
+        modal: .modal-renata
+        modal_content:
+          description:
+            - I am psychotherapist working in a psychoanalytic and systemic approach. I completed wholistic course of psychotherapy psychoanalytic organised by Department of Treatment of Personality Disorders and Neuroses at the hospital of Babiński in Cracow. My psychotherapeutic work has been falling under regular clinical supervision by psychoanalyst and supervisor of Polish Society of Psychoanalytical Psychotherapy.
+            - I have been working for 7 years in my private practice cooperating with people who suffer from mental discomforts including personality disorders, anxiety disorders, depressions, eating disorders and emotional disorders.
+            - Working along with my patients I am trying to help them resolve the issues that are troubling them and once again find the balance between their inner life and the reality.
 
   people:
     - name: Tadeusz Reimus
