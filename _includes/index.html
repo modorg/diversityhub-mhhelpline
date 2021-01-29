@@ -296,12 +296,22 @@
                     <li><a href="{{ site.twitter_url }}" target="_blank" class="wow fadeInUp"><i class="ti ti-twitter-alt" aria-hidden="true"></i></a></li>
                     <li><a href="{{ site.linkedin_url }}" target="_blank" class="wow fadeInUp"><i class="ti ti-linkedin" aria-hidden="true"></i></a></li>
                 </ul>
-                <p class="copyrights mt-2 mb-2">{{ site.data[page.lang].footer.text }}</p>
+                <span class="copyrights mt-2 mb-2">{{ site.data[page.lang].footer.text }}</span>
+                <span class="ml-3"><a target="_blank" href="/Regulamin platformy_MHHL.pdf">{{ site.data[page.lang].footer.regulations }}</a></span>
+                <span class="ml-3"><a target="_blank" href="https://app.mhhelpline.com/pl/page/polityka-prywatnosci">{{ site.data[page.lang].footer.privacy_policy }}</a></span>
             </div>
         </div>
     </div>
 </footer>
 <!-- Footer ends -->
+
+<div class="banner-cookies">
+    {{ site.data[page.lang].cookie_banner.our_site_uses }}
+    <a class="terms-policy" href="https://app.mhhelpline.com/pl/page/polityka-prywatnosci" target="_blank">{{ site.data[page.lang].cookie_banner.privacy_policy }}</a>.
+    {{ site.data[page.lang].cookie_banner.you_agree }}
+    <a class="terms-policy" href="https://app.mhhelpline.com/pl/page/polityka-prywatnosci" target="_blank">{{ site.data[page.lang].cookie_banner.privacy_policy }}</a>.
+    <input type="button" class="btn btn-yellow btn-sm text-uppercase" id="accept_cookies" value="{{ site.data[page.lang].cookie_banner.accept }}">
+</div>
 
 {% include modals.html %}
 

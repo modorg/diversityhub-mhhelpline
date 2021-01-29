@@ -6,6 +6,11 @@ jQuery(window).on("load", function () {
      ====================================== */
     $("#loader-fade").fadeOut(800);
 
+    $('#accept_cookies').click(function() {
+        document.cookie = document.cookie = "cookies_banner=true; expires=Sat, 01 Jan 2050 00:00:00 UTC; path=/;";
+        $('.banner-cookies').hide();
+    })
+
     $('.modal-person1').on('shown.bs.modal', function (e) {
         $([document.documentElement, document.body]).animate({
             scrollTop: $("#team").offset().top
@@ -16,6 +21,13 @@ jQuery(window).on("load", function () {
         $('.lang-en').addClass('active');
     else
         $('.lang-pl').addClass('active');
+
+    decodeURIComponent(document.cookie).split('; ').some(function(cookie) {
+        var cookie_pair = cookie.split('=');
+        if (cookie_pair[0] == 'cookies_banner') {
+            $('.banner-cookies').hide();
+        }
+    })
 });
 
 jQuery(function ($) {

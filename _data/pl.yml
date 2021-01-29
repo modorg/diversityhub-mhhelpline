@@ -207,7 +207,15 @@ contact:
 
 
 footer:
-  text: © 2020 Mental Health Helpline
+  text: © 2021 Mental Health Helpline
   link: Diversity Hub
+  regulations: Regulamin
+  privacy_policy: Polityka Prywatności
   link_url: http://www.diversityhub.pl/
   logo_text: MHHL to wsparcie organizacji w budowaniu kultury zdrowia psychicznego.
+
+cookie_banner:
+  our_site_uses: Nasza strona wykorzystuje pliki cookies. Zapoznaj się z
+  privacy_policy: Polityką Prywatności
+  you_agree:  Klikając „Akceptuję” wyrażasz zgodę na stosowanie plików cookies zgodnie z
+  accept: Akceptuję

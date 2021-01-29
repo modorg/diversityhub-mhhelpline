@@ -205,7 +205,15 @@ contact:
   header: Let's Get In Touch
 
 footer:
-  text: © 2020 Mental Health Helpline
+  text: © 2021 Mental Health Helpline
   link: Diversity Hub
+  regulations: Regulations
+  privacy_policy: Privacy Policy
   link_url: http://www.diversityhub.pl/
   logo_text: MHHL supports organizations in building a culture of mental health.
+
+cookie_banner:
+  our_site_uses: Our website uses cookies. Please see
+  privacy_policy: Privacy Policy
+  you_agree: By clicking "I accept" you consent to the use of cookies in accordance with
+  accept: I Accept

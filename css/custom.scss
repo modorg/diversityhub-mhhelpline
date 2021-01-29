@@ -212,3 +212,58 @@ h2 a:link {
 h2 a:visited, h2 a:hover {
   color: rgb(228, 184, 11);
 }
+
+footer {
+  a {
+    color: white !important;
+  }
+
+  a:hover {
+    color: white;
+    text-decoration: underline !important;
+  }
+}
+
+.banner-cookies {
+  display: block;
+  z-index: 100;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(27, 30, 33, .8);
+  text-align: center;
+  color: white;
+  font-family: Nunito, Arial, sans-serif;
+
+  font-size: 1rem;
+  line-height: 1.25em;
+  padding: .55rem 1rem .58rem;
+
+  border: 1px solid #1b1e21;
+  border-radius: 2px;
+
+  .btn {
+    border-radius: 36px;
+  }
+
+  #accept_cookies {
+    font-size: 9pt;
+    min-width: 80px;
+    font-weight: 700;
+    padding: .375rem .75rem;
+
+    &:hover {
+      background-color: #917509;
+      border-color: #917509;
+    }
+  }
+
+  a {
+    font-weight: 900;
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: underline !important;
+  }
+}
