@@ -166,6 +166,59 @@ team:
             - I am psychotherapist working in a psychoanalytic and systemic approach. I completed wholistic course of psychotherapy psychoanalytic organised by Department of Treatment of Personality Disorders and Neuroses at the hospital of Babiński in Cracow. My psychotherapeutic work has been falling under regular clinical supervision by psychoanalyst and supervisor of Polish Society of Psychoanalytical Psychotherapy.
             - I have been working for 7 years in my private practice cooperating with people who suffer from mental discomforts including personality disorders, anxiety disorders, depressions, eating disorders and emotional disorders.
             - Working along with my patients I am trying to help them resolve the issues that are troubling them and once again find the balance between their inner life and the reality.
+      - name: Małgorzata Karcz
+        email: malgorzata.karcz@mhhelpline.com
+        role: psychologist, psychotherapist
+        image: person_malgorzata.jpg
+        modal: .modal-malgorzata
+        modal_content:
+          description:
+            - I am a psychologist, a certified psychotherapist in the field of integration.
+            - I graduated from Applied Psychology at the Jagiellonian University. I obtained a psychotherapist diploma by completing four-year postgraduate studies at the Professional School of Psychotherapy at SWPS and the Institute of Health Psychology of the Polish Psychiatric Association.
+            - I conduct individual psychotherapy with adults who struggle with various life problems, are in crisis, experience difficulties in relationships with loved ones, suffer from depression, anxiety, psychosomatic disorders.
+            - A special place in my professional practice is the psychotherapy of people who have experienced traumatic and stressful events in the past, e.g. in families with alcohol problems or otherwise dysfunctional.
+            - I offer help in working on self-awareness and self-development and increasing the ability to create a satisfying life and experience joy. In addition, I have many years of experience in working with children and young people and their families. I participate in the implementation of projects aimed at people with disabilities and their parents and guardians.
+            - I base my work on creating a therapeutic relationship with the client and using the knowledge and skills gained during workshops and training sessions. I use clinical supervision.
+      - name: Zofia Sozańska-Alty
+        email: zofia.sozanska.alty@mhhelpline.com
+        role: psychologist, psychotherapist
+        image: person_zofia.jpg
+        modal: .modal-zofia
+        modal_content:
+          description:
+            - I am a psychologist and therapist. I graduated psychology (MSc degree) at the Jagiellonian University in Krakow and I work in brief solution focused therapy approach (SFBT). In my practice, I also use non-violent communication (NVC) and Ben Furman’s “Kid’s Skills” method. I am a member of the Polish Association of Solution Focused Therapists and I undergo regular supervision. I provide psychological support for children, adolescents, adults and families.
+            - My work has been described as empathetic, person-centered, pragmatic and goal-orientated. My role as a psychologist is to walk alongside my clients and help them to empower themselves, to recognize and uncover their resources, guide them to self-discovery and support them in developing creative strategies and solutions. The focus of my work is not limited to the mental but also the physical dimension, where breathing and relaxation techniques are also important.
+      - name: Jolanta Jastrzębska
+        email: jolanta.jastrzebska@mhhelpline.com
+        role: psychologist, psychotherapist, coach
+        image: person_jola.jpg
+        modal: .modal-jola
+        modal_content:
+          description:
+            - I work with adults and young adults in a crisis, difficult life situation, having problems in relationships with others, feeling unsatisfied with life or experiencing burnout.
+            - I support my personal development, including getting to know myself better and understanding myself and making conscious choices.
+            - I conduct therapy in the stream of analytically oriented individual and group psychotherapy.
+            - I also have business experience as a coach, trainer and consultant.
+            - "I have gained clinical experience, among others. in the following centers: Wolski Hospital, Day Psychiatric Department in Warsaw, Academic Psychotherapy Center of the University of Warsaw, Oncology Hospital, Psychological and Psychiatric Clinic, psychological help centers."
+            - Currently, I am in the process of a four-year psychotherapeutic training, recommended by the Psychotherapy Section of the Polish Psychological Association and certified by the Scientific Section of Psychotherapy of the Polish Psychiatric Association.
+      - name: Grażyna Zaborowska
+        email: grazyna.zaborowska@mhhelpline.com
+        role: psychologist, psychotherapist, pedagogue
+        image: person_grazyna.jpg
+        modal: .modal-grazyna
+        modal_content:
+          description:
+             - I am a certified addiction psychotherapist, psychodynamic psychotherapist (under certification at the Polish Psychiatric Association), and a rehabilitation educator with experience in working with various groups of people.
+             - I am constantly improving my qualifications. In 2019, I started a specialization in psychotherapy for children and adolescents.
+             - My job is my passion. I am empathetic and warm in touch. I believe that the therapeutic relationship plays a key role in the process of psychotherapy, so I make sure that work begins with creating an atmosphere of security and acceptance so that we can discover the causes of difficulties together with the patient and find ways to overcome them. I care about the high quality of my work, which is why I regularly participate in supervisions and I am one of the therapists who have signed a declaration of acceptance of the Addiction Therapist's Code of Ethics.
+      - name: Anna Dziewulska
+        email: anna.dziewulska@mhhelpline.com
+        role: psychologist
+        image: person_anna_dz.jpg
+        modal: .modal-anna-dz
+        modal_content:
+          description:
+            - "I am a practicing psychologist. I work in the trend of intimacy parenting based on John Bolwa's Theory of Ties, combining it with knowledge in the field of social neurobiology - Poliwagalna, TSR and mindfulnes. Since 2014, I have been supporting adults and families in building close and respectful relationships with children and adolescents, I meet parents who need support in everyday educational difficulties and in crisis situations or related to various changes in life. for professionals working with children and youth. "
 
   people:
     - name: Tadeusz Reimus
