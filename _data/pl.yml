@@ -219,6 +219,28 @@ team:
         modal_content:
           description:
             - "Jestem praktykująca psycholożką. Pracuje w nurcie rodzicielstwa bliskości opartym na opartym na Teorii Więzi Johna Bolwy łącząc ją z wiedzą z obszaru neurobiologi społecznej – Teoria Poliwagalna, TSR oraz mindfulnes. Od 2014 roku wspieram dorosłych oraz rodziny w budowaniu bliskich i pełnych szacunku relacji z dziećmi i młodzieżą, Spotykam się  z rodzicami, którzy potrzebują wsparcia w codziennych trudnościach wychowawczych  i  w sytuacjach kryzysowych czy związanych z różnego rodzaju zmianami w życiu. Realizuję to poprzez:  konsultacje indywidualne, warsztaty, współprowadzenie procesów rozwojowych online, grupę wsparcia dla mam, superwizje i warsztaty dla specjalistów pracujących z dziećmi i młodzieżą."
+      - name: Magdalena Hadaj
+        email: magdalena.hadaj@mhhelpline.com
+        role: psycholog
+        image: person_magda.jpg
+        modal: .modal-magda
+        modal_content:
+          description:
+            - Jestem psychologiem, absolwentką UMCS.
+            - Pracuję w nurcie systemowym i rodzicielstwa bliskości. Podstawą mojej pracy jest również wiedza związana z neuropsychologią, teorią poliwagalną, teorią samoregulacji.
+            - Doświadczenie zawodowe zdobywałam m.in. w Poradni Zdrowia Psychicznego dla Dzieci i Młodzieży oraz Stowarzyszeniu na Rzecz Wspierania Rozwoju Dzieci i Młodzieży. Pracowałam również jako psycholog w żłobku oraz przedszkolu. Wspieram dzieci i rodziny znajdujące się w obliczu kryzysu spowodowanego chorobą, rozstaniem, rozłąką i innymi sytuacjami trudnymi.
+            - Pomagam rodzicom odszukać i zrozumieć przyczyny zachowania ich dzieci. Wspieram pary i rodziny w procesie rozwiązywania problemów. Udzielam wsparcia również kobietom w ciąży i w połogu.
+            - "Prywatnie jestem żoną oraz mamą. Prowadzę swoją stronę internetową: magdalena.hadaj.pl, za pośrednictwem której dzielę się swoją wiedzą i doświadczeniem nie idealnego rodzicielstwa."
+            - Lubię spać, jeść, oglądać filmy, robić zdjęcia i huśtać się na huśtawce.
+      - name: Tomasz Waleczko
+        email: tomasz.waleczko@mhhelpline.com
+        role: psycholog, psychoerapeuta
+        image: person_tomasz.jpg
+        modal: .modal-tomasz
+        modal_content:
+          description:
+            - Psycholog, trener treningu interpersonalnego II st. PTP, trener III st. BrainCore
+            - Od 2004 ponad 15000 godzin zajęć z zakresu rozwoju interpersonalnego, życiowego, funkcjonowania emocjonalnego dla indywidualnych klientów (500 godzin), grup treningowych, szkoleniowych w biznesie, samorządzie, organizacjach pozarządowych, edukacji. Ewaluator 30 programów społecznych. Pracownik dydaktyczny Uniwersytetu Humanistycznospołecznego SWPS we Wrocławiu. Trener i superwizor narzędzia diagnozującego właściwości uczenia się BrainCore.
 
   people:
     - name: Tadeusz Reimus

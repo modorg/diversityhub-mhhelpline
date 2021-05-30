@@ -219,6 +219,28 @@ team:
         modal_content:
           description:
             - "I am a practicing psychologist. I work in the trend of intimacy parenting based on John Bolwa's Theory of Ties, combining it with knowledge in the field of social neurobiology - Poliwagalna, TSR and mindfulnes. Since 2014, I have been supporting adults and families in building close and respectful relationships with children and adolescents, I meet parents who need support in everyday educational difficulties and in crisis situations or related to various changes in life. for professionals working with children and youth. "
+      - name: Magdalena Hadaj
+        email: magdalena.hadaj@mhhelpline.com
+        role: psychologist
+        image: person_magda.jpg
+        modal: .modal-magda
+        modal_content:
+          description:
+            - I am a psychologist, a graduate of Maria Curie-Skłodowska University.
+            - I work in the systemic and intimacy parenting. The basis of my work is also knowledge related to neuropsychology, polyvagal theory and the theory of self-regulation.
+            - I have gained professional experience, among others in the Mental Health Clinic for Children and Youth and the Association for Supporting the Development of Children and Youth. I also worked as a psychologist in a nursery and kindergarten. I support children and families facing a crisis caused by illness, separation, separation and other difficult situations.
+            - I help parents find and understand the reasons for their children's behavior. I support couples and families in the problem solving process. I also provide support to pregnant and postpartum women.
+            - "Privately, I am a wife and mother. I run my website: magdalena.hadaj.pl, through which I share my knowledge and experience of not ideal parenting."
+            - I like to sleep, eat, watch movies, take pictures and swing on a swing.
+      - name: Tomasz Waleczko
+        email: tomasz.waleczko@mhhelpline.com
+        role: psychologist, psychotherapist
+        image: person_tomasz.jpg
+        modal: .modal-tomasz
+        modal_content:
+          description:
+            - Psychologist, trainer of 2nd degree interpersonal training of the Polish Psychiatric Association, trainer of the 3rd degree BrainCore
+             - Since 2004, over 15,000 hours of classes in interpersonal and life development, emotional functioning for individual clients (500 hours), training and training groups in business, local government, non-governmental organizations, education. Evaluator of 30 social programs. Lecturer at the SWPS University of Social Sciences and Humanities in Wrocław. Trainer and supervisor of the BrainCore learning properties diagnosis tool.
 
   people:
     - name: Tadeusz Reimus
@@ -227,7 +249,7 @@ team:
       image: person_tadek.jpg
       modal: .modal-tadek
       modal_content:
-        header: Tadeusz Reimus – psychoerapeuta, konsultant, coach
+        header: Tadeusz Reimus – psychotherapist, consultant, coach
         description:
           - A practicing integrative psychotherapist, accredited coach of the International Coach Federation at the PCC (Proffesional Certified Coach) level; trained and appointed psychologist.
           - Graduate of philosophy and psychology at the Jagiellonian University, scholarship holder at the University of Tilburg, the Netherlands;
